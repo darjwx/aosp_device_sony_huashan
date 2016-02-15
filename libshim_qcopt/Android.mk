@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,11 +18,14 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := \
-    symbols/icu50.c
+    icu50.c
 
 LOCAL_SHARED_LIBRARIES := \
     libicuuc \
     libicui18n
+
+LOCAL_CFLAGS += \
+    -Wall
 
 LOCAL_MODULE := libshim_qcopt
 

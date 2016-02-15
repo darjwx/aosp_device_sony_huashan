@@ -1,0 +1,2813 @@
+--- /home/adriandc/Bureau/adb.log.cut.log
++++ /home/adriandc/Bureau/flash.cut.log
+@@ -1,88 +1,27 @@
+-I caladbolg:    4019807 cald_camctrl.c                    (5227)  2471 P [PFM]    4019746 Cald_CamCtrl_ICBIqCtrl_FocusStateChanged
+-I caladbolg:    4024294 cald_client.c                      (406)   866 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    4024568 cald_client.c                      (424)   866 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-W caladbolg:    4026033 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=6318
+-I caladbolg:    4060369 cald_camctrl.c                    (5227)  2471 P [PFM]    4060308 Cald_CamCtrl_ICBIqCtrl_FocusStateChanged
+-W caladbolg:    4064153 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=3845
+-I caladbolg:    4094521 cald_client.c                      (464)   209 I [INF] + Cald_Client_ICamera_GetBufInfo index[0x2]
+-I caladbolg:    4094735 cald_client.c                      (487)   209 I [INF] - Cald_Client_ICamera_GetBufInfo (0)
+-I caladbolg:    4094826 cald_client.c                      (464)   209 I [INF] + Cald_Client_ICamera_GetBufInfo index[0x3]
+-I caladbolg:    4095009 cald_client.c                      (487)   209 I [INF] - Cald_Client_ICamera_GetBufInfo (0)
+-I caladbolg:    4095895 cald_client.c                      (755)   209 I [INF] + Cald_Client_ICamera_EnableThumbnail 
+-I caladbolg:    4095956 cald_client.c                      (772)   209 I [INF] pBufNum[1]
+-I caladbolg:    4096108 cald_client.c                      (778)   209 I [INF] pBuf[0]:0xada58000
+-I caladbolg:    4096322 cald_client.c                      (792)   209 I [INF] - Cald_Client_ICamera_EnableThumbnail (0)
+-I caladbolg:    4096383 cald_client.c                      (832)   209 I [INF] + Cald_Client_ICamera_TakeSnapshot 
+-I caladbolg:    4096474 cald_client.c                      (849)   209 I [INF] pBufNum[1]
+-I caladbolg:    4096535 cald_client.c                      (855)   209 I [INF] pBuf[0]:0xadb56000
+-I caladbolg:    4096658 cald_camctrl.c                    (5668)  2451 P [PFM]    4096627 Cald_CamCtrl_ICamera_TakeSnapshot
+-I caladbolg:    4097421 cald_client.c                      (869)   209 I [INF] - Cald_Client_ICamera_TakeSnapshot (0)
+-I Choreographer: Skipped 30 frames!  The application may be doing too much work on its main thread.
+-I libcamera: Preview average frame rate : 7.4986 (fps)
+-D ThemesProvider: Deleted 0
+-I ActivityManager: Start proc 2503:com.google.android.calendar/u0a136 for broadcast com.google.android.calendar/com.android.calendar.widget.CalendarAppWidgetProvider
+-D libcameralight: lm3561_flash.c chip_set_data: CAMERALIGHT_TORCH_CURRENT value: 74400
+-D libcameralight: lm3561_flash.c chip_set_data: CAMERALIGHT_TORCH_ENABLE value: 1
+-W System  : ClassLoader referenced unknown path: /data/app/com.google.android.calendar-2/lib/arm
+-I ActivityManager: Start proc 2518:com.android.providers.calendar/u0a3 for content provider com.android.providers.calendar/.CalendarProvider2
+-D libcameralight: lm356x_flash_common.c chip_flash_get_availablecurrent_time: duration time is 128 [ms] (from 124 [ms])
+-D libcameralight: viskan_calc_parameters.c log_param: if_indicator_level = 4500
+-D libcameralight: viskan_calc_parameters.c log_param: if_torch_vr = 74400
+-D libcameralight: viskan_calc_parameters.c log_param: vf_factory = 2860
+-D libcameralight: viskan_calc_parameters.c log_param: v_batt_min = 3500
+-D libcameralight: viskan_calc_parameters.c log_param: vdrop_ratio = 80
+-D libcameralight: viskan_calc_parameters.c log_param: ratio_vdrop_torch = 50
+-D libcameralight: viskan_calc_parameters.c log_param: ratio_vdrop_high = 50
+-D libcameralight: viskan_calc_parameters.c log_param: eff_h = 80
+-D libcameralight: viskan_calc_parameters.c log_param: eff_l = 65
+-D libcameralight: viskan_calc_parameters.c log_param: drv_eff_threshold = 200000
+-D libcameralight: viskan_calc_parameters.c log_param: c_redeye = 100
+-D libcameralight: viskan_calc_parameters.c log_param: c_alien = 30
+-D libcameralight: viskan_calc_parameters.c log_param: c_charging = 50
+-D libcameralight: viskan_calc_parameters.c log_param: rtotal_min = 140
+-D libcameralight: viskan_calc_parameters.c log_param: rtotal_offset = 0
+-D libcameralight: viskan_calc_parameters.c log_param: t_rtotal_threshold = 30
+-D libcameralight: viskan_calc_parameters.c log_param: c_rtotal[0] = 200
+-D libcameralight: viskan_calc_parameters.c log_param: c_rtotal[1] = -10100
+-D libcameralight: viskan_calc_parameters.c log_param: c_rtotal[2] = 270000
+-D libcameralight: viskan_calc_parameters.c log_param: c_vdrop[0] = 0
+-D libcameralight: viskan_calc_parameters.c log_param: c_vdrop[1] = 0
+-D libcameralight: viskan_calc_parameters.c log_param: c_vdrop[2] = 0
+-D libcameralight: viskan_calc_parameters.c log_param: c_vf[0] = -172400
+-D libcameralight: viskan_calc_parameters.c log_param: c_vf[1] = 562000
+-D libcameralight: viskan_calc_parameters.c log_param: c_vf[2] = 2703600
+-D libcameralight: viskan_calc_parameters.c log_param: c_vf_t = -1833
+-D libcameralight: viskan_calc_parameters.c log_param: vf_ref = 2860
+-D libcameralight: viskan_calc_parameters.c log_param: t_ref = 25
+-D libcameralight: viskan_calc_parameters.c log_param: i_batt_max_high = 1000000
+-D libcameralight: viskan_calc_parameters.c log_param: i_batt_max_torch = 149600
+-D libcameralight: viskan_calc_parameters.c log_param: max_if_flash = 600000
+-D libcameralight: viskan_calc_parameters.c log_param: max_if_torch_3a = 74400
+-D libcameralight: viskan_calc_parameters.c log_param: v_batt_meas_range = 150
+-D libcameralight: viskan_calc_parameters.c log_param: i_batt_meas_range = 50000
+-D libcameralight: viskan_calc_parameters.c log_param: if_flash_critical = 74400
+-D libcameralight: viskan_calc_parameters.c log_param: if_torch_critical = 74400
+-D libcameralight: flashled_calc.c flashledcalc_common_get_availablecurrent: File system access succeeded.
+-D libcameralight: flashled_calc.c flashledcalc_common_get_availablecurrent: No flag is set, namely, Okay.
+-D libcameralight: flashled_calc.c flashledcalc_common_get_availablecurrent: duration = 128, charging status = 1, t_batt = 35, r_batt = 140, v_batt = 3961, i_batt = 234800
+-D libcameralight: flashled_calc.c flashledcalc_if_led_max: rtotal = 140, vdrop_max = 461, i_drv = 617863, vdrop_est = 86
+-D libcameralight: flashled_calc.c flashledcalc_if_led_max: if_led_max = 600000
+-D libcameralight: flashled_calc.c flashledcalc_status_effect: if_led_max = 300000
+-D libcameralight: lm3561_flash.c chip_calc_if_fitval: if_led_max = 299200
+-D libcameralight: flashled_calc.c flashledcalc_common_get_availablecurrent: calc_success
+-D libcameralight: flashled_calc.c flashledcalc_flash_get_availablecurrent: if_led_max = 299200
+-D libcameralight: lm3561_flash.c chip_set_data: CAMERALIGHT_TORCH_CURRENT value: 74400
+-W System  : ClassLoader referenced unknown path: /system/priv-app/CalendarProvider/lib/arm
+-D libcameralight: lm3561_flash.c chip_set_data: CAMERALIGHT_FLASH_CURRENT value: 112000
+-D libcameralight: lm3561_flash.c chip_set_data: CAMERALIGHT_TORCH_CURRENT value: 74400
+-D libcameralight: lm3561_flash.c chip_set_data: CAMERALIGHT_FLASH_DURATION value: 66000
+-D libcameralight: lm3561_flash.c chip_set_data: CAMERALIGHT_TORCH_CURRENT value: 74400
+-D libcameralight: lm3561_flash.c chip_set_data: CAMERALIGHT_FLASH_SYNC value: 1
+-I caladbolg:    4225392 cald_iqctrl.c                    (12259)  2471 I [INF] + Cald_IqCtrl_Callback
+-I caladbolg:    4225545 cald_camctrl.c                    (5203)  2471 P [PFM]    4225484 Cald_CamCtrl_ICBIqCtrl_PrepareSnapshotDone
+-I caladbolg:    4225698 cald_iqctrl.c                    (12323)  2471 I [INF] - Cald_IqCtrl_Callback
+-I caladbolg:    4225820 cald_capctrl.c                    (7709)  2454 P [CAP]    4225789 + Cald_CapCtrl_FSM_Func_StopPreview 
+-I caladbolg:    4225942 cald_hal_qct_camera.c             (6199)  2454 P [HAL]    4225911 + Cald_Hal_Qct_If_StopPreview 
++I caladbolg: 0000000008 cald_client.c                      (464)  1243 I [INF] + Cald_Client_ICamera_GetBufInfo index[0x2]
++I caladbolg: 0000000021 cald_client.c                      (487)  1243 I [INF] - Cald_Client_ICamera_GetBufInfo (0)
++I caladbolg: 0000000043 cald_client.c                      (464)  1243 I [INF] + Cald_Client_ICamera_GetBufInfo index[0x3]
++I caladbolg: 0000000026 cald_client.c                      (487)  1243 I [INF] - Cald_Client_ICamera_GetBufInfo (0)
++I caladbolg: 0000000007 cald_client.c                      (755)  1243 I [INF] + Cald_Client_ICamera_EnableThumbnail 
++I caladbolg: 0000000099 cald_client.c                      (772)  1243 I [INF] pBufNum[1]
++I caladbolg: 0000000090 cald_client.c                      (778)  1243 I [INF] pBuf[0]:0xac145000
++I caladbolg: 0000000065 cald_client.c                      (792)  1243 I [INF] - Cald_Client_ICamera_EnableThumbnail (0)
++I caladbolg: 0000000087 cald_client.c                      (832)  1243 I [INF] + Cald_Client_ICamera_TakeSnapshot 
++I caladbolg: 0000000048 cald_client.c                      (849)  1243 I [INF] pBufNum[1]
++I caladbolg: 0000000039 cald_client.c                      (855)  1243 I [INF] pBuf[0]:0xac405000
++I caladbolg: 0000000092 cald_camctrl.c                    (5668)  1996 P [PFM] 0000000031 Cald_CamCtrl_ICamera_TakeSnapshot
++I caladbolg: 0000000045 cald_client.c                      (869)  1243 I [INF] - Cald_Client_ICamera_TakeSnapshot (0)
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I caladbolg: 0000000056 cald_iqctrl.c                    (12259)  2016 I [INF] + Cald_IqCtrl_Callback
++I caladbolg: 0000000079 cald_camctrl.c                    (5203)  2016 P [PFM] 0000000048 Cald_CamCtrl_ICBIqCtrl_PrepareSnapshotDone
++I caladbolg: 0000000023 cald_iqctrl.c                    (12323)  2016 I [INF] - Cald_IqCtrl_Callback
++I caladbolg: 0000000014 cald_capctrl.c                    (7709)  1999 P [CAP] 0000000023 + Cald_CapCtrl_FSM_Func_StopPreview 
++I caladbolg: 0000000067 cald_hal_qct_camera.c             (6199)  1999 P [HAL] 0000000036 + Cald_Hal_Qct_If_StopPreview 
+ E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
+ I mm-camera: config_v2_CAMERA_STOP_VIDEO:, ctrl->state = 5
+ E mm-camera: axi_command_ops cmd_type = 2
+@@ -95,12 +34,12 @@
+ E mm-camera: axi_proc_unregister_wms: Releasing write master 6
+ E mm-camera: axi_command_ops cmd_type = 3
+ E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
+-I caladbolg:    4228322 cald_hal_qct_camera.c             (6225)  2454 P [HAL]    4228261 - Cald_Hal_Qct_If_StopPreview
+-I caladbolg:    4232382 cald_capctrl.c                    (7713)  2454 P [CAP]    4232321 - Cald_CapCtrl_FSM_Func_StopPreview
+-I caladbolg:    4232534 cald_capctrl.c                    (7835)  2454 P [CAP]    4232504 + Cald_CapCtrl_FSM_Func_StartSnapshot 
+-I caladbolg:    4422310 cald_hal_qct_camera.c             (6324)  2454 P [HAL]    4422249 + Cald_Hal_Qct_If_StartYuvSnapshot 
+-I caladbolg:    4422615 cald_hal_qct_camera.c             (6369)  2454 P [HAL]    4422524 - Cald_Hal_Qct_If_StartYuvSnapshot
+-I caladbolg:    4422981 cald_capctrl.c                    (8297)  2454 P [CAP]    4422920 - Cald_CapCtrl_FSM_Func_StartSnapshot
++I caladbolg: 0000000089 cald_hal_qct_camera.c             (6225)  1999 P [HAL] 0000000028 - Cald_Hal_Qct_If_StopPreview
++I caladbolg: 0000000036 cald_capctrl.c                    (7713)  1999 P [CAP] 0000000075 - Cald_CapCtrl_FSM_Func_StopPreview
++I caladbolg: 0000000019 cald_capctrl.c                    (7835)  1999 P [CAP] 0000000089 + Cald_CapCtrl_FSM_Func_StartSnapshot 
++I caladbolg: 0000000042 cald_hal_qct_camera.c             (6324)  1999 P [HAL] 0000000012 + Cald_Hal_Qct_If_StartYuvSnapshot 
++I caladbolg: 0000000008 cald_hal_qct_camera.c             (6369)  1999 P [HAL] 0000000047 - Cald_Hal_Qct_If_StartYuvSnapshot
++I caladbolg: 0000000030 cald_capctrl.c                    (8297)  1999 P [CAP] 0000000069 - Cald_CapCtrl_FSM_Func_StartSnapshot
+ I mm-camera: config_proc_native_ctrl_cmd: CAMERA_SET_PARM_DIMENSION called
+ E mm-camera: axi_set_params: begin, axi_obj_idx = 0
+ E mm-camera: axi_set_params: begin, axi_obj_idx = 0
+@@ -113,10 +52,10 @@
+ E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 0
+ I mm-camera: config_v2_v4l2_request: MSM_V4L2_VID_CAP_TYPE called.
+ I mm-camera: config_update_stream_info: inst_idx : 1
+-I mm-camera: config_update_stream_info Storing stream parameters for video inst 1 as : width = 3264, height 2448, format = 0 inst_handle = 00000000 cid = 0
++I mm-camera: config_update_stream_info Storing stream parameters for video inst 1 as : width = 3264, height 2464, format = 0 inst_handle = 00000000 cid = 0
+ I mm-camera: config_v2_v4l2_request: MSM_V4L2_VID_CAP_TYPE called.
+ I mm-camera: config_update_stream_info: inst_idx : 2
+-I mm-camera: config_update_stream_info Storing stream parameters for video inst 2 as : width = 960, height 720, format = 0 inst_handle = 00000000 cid = 0
++I mm-camera: config_update_stream_info Storing stream parameters for video inst 2 as : width = 512, height 384, format = 1 inst_handle = 00000000 cid = 0
+ I mm-camera: config_MSM_V4L2_STREAM_ON, - Inside Stream ON
+ E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 0
+ E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 0
+@@ -130,8 +69,8 @@
+ I mm-camera: config_v2_CAMERA_SET_CHANNEL_STREAM rc = 0, status = 1
+ I mm-camera: config_decide_vfe_outputs: Ports Used 3, Op mode 4
+ I mm-camera: config_decide_vfe_outputs Current mode 4 Full size streaming : Disabled
+-I mm-camera: config_decide_vfe_outputs: Primary: 3264x2448, extra_pad: 0x0, Fmt: 0, Type: 3, Path: 4
+-I mm-camera: config_decide_vfe_outputs: Secondary: 960x720, extra_pad: 0x0, Fmt: 0, Type: 4, Path: 2
++I mm-camera: config_decide_vfe_outputs: Primary: 3264x2464, extra_pad: 0x0, Fmt: 0, Type: 3, Path: 4
++I mm-camera: config_decide_vfe_outputs: Secondary: 512x384, extra_pad: 0x0, Fmt: 0, Type: 4, Path: 2
+ E mm-camera: axi_command_ops cmd_type = 0
+ E mm-camera: config_update_inst_handles: Single rdi enabled
+ I mm-camera: config_update_inst_handles Updated the inst handles as 00000000, 00000000, 0, 0, 0 
+@@ -164,15 +103,15 @@
+ E mm-camera: axi_set_params: begin, axi_obj_idx = 0
+ E mm-camera: axi_set_params: begin, axi_obj_idx = 0
+ I mm-camera: axi_update_UB_data Total UB size available for image masters 920
+-I mm-camera: axi_update_UB_data: rem_size:308, minUbSize: 16
+-I mm-camera: axi_update_UB_data: prev_p1_size:76, prev_p2_size: 76 prev_p3_size:0,                    main_p1_size: 220 main_p2_size:240, main_p3_size: 0
++I mm-camera: axi_update_UB_data: rem_size:364, minUbSize: 16
++I mm-camera: axi_update_UB_data: prev_p1_size:48, prev_p2_size: 48 prev_p3_size:0,                    main_p1_size: 220 main_p2_size:240, main_p3_size: 0
+ I mm-camera: axi_update_UB_data Operation mode = 4 
+-I mm-camera: axi_update_UB_data Image master 0 UB Offset 0 UB Size 527
+-I mm-camera: axi_update_UB_data Image master 1 UB Offset 528 UB Size 239
++I mm-camera: axi_update_UB_data Image master 0 UB Offset 0 UB Size 583
++I mm-camera: axi_update_UB_data Image master 1 UB Offset 584 UB Size 239
+ I mm-camera: axi_update_UB_data Image master 2 UB Offset 0 UB Size 0
+ I mm-camera: axi_update_UB_data Image master 3 UB Offset 0 UB Size 0
+-I mm-camera: axi_update_UB_data Image master 4 UB Offset 768 UB Size 75
+-I mm-camera: axi_update_UB_data Image master 5 UB Offset 844 UB Size 75
++I mm-camera: axi_update_UB_data Image master 4 UB Offset 824 UB Size 47
++I mm-camera: axi_update_UB_data Image master 5 UB Offset 872 UB Size 47
+ I mm-camera: axi_update_UB_data Image master 6 UB Offset 0 UB Size 0
+ E mm-camera: axi_config: begin
+ E mm-camera: axi_vfe_config_snapshot begin 
+@@ -184,36 +123,36 @@
+ E mm-camera: AXI Output busWrSkipCfg = 0
+ E mm-camera: configure_wm_registers: axi channel write master 0 config
+ E mm-camera: AXI Output busUbOffset = 0
+-E mm-camera: AXI Output busUbDepth = 527
+-E mm-camera: AXI Output buslinesPerImage = 2447
++E mm-camera: AXI Output busUbDepth = 583
++E mm-camera: AXI Output buslinesPerImage = 2463
+ E mm-camera: AXI Output busdwordsPerLine = 203
+ E mm-camera: AXI Output busburstLength = 3
+-E mm-camera: AXI Output busbufferNumRows = 2447
++E mm-camera: AXI Output busbufferNumRows = 2463
+ E mm-camera: AXI Output busrowIncrement = 408
+ E mm-camera: configure_wm_registers: axi channel write master 1 config
+-E mm-camera: AXI Output busUbOffset = 528
++E mm-camera: AXI Output busUbOffset = 584
+ E mm-camera: AXI Output busUbDepth = 239
+-E mm-camera: AXI Output buslinesPerImage = 1223
++E mm-camera: AXI Output buslinesPerImage = 1231
+ E mm-camera: AXI Output busdwordsPerLine = 203
+ E mm-camera: AXI Output busburstLength = 3
+-E mm-camera: AXI Output busbufferNumRows = 1223
++E mm-camera: AXI Output busbufferNumRows = 1231
+ E mm-camera: AXI Output busrowIncrement = 408
+ E mm-camera: configure_wm_registers: axi channel write master 4 config
+-E mm-camera: AXI Output busUbOffset = 768
+-E mm-camera: AXI Output busUbDepth = 75
+-E mm-camera: AXI Output buslinesPerImage = 719
+-E mm-camera: AXI Output busdwordsPerLine = 59
++E mm-camera: AXI Output busUbOffset = 824
++E mm-camera: AXI Output busUbDepth = 47
++E mm-camera: AXI Output buslinesPerImage = 383
++E mm-camera: AXI Output busdwordsPerLine = 31
+ E mm-camera: AXI Output busburstLength = 3
+-E mm-camera: AXI Output busbufferNumRows = 719
+-E mm-camera: AXI Output busrowIncrement = 120
++E mm-camera: AXI Output busbufferNumRows = 383
++E mm-camera: AXI Output busrowIncrement = 64
+ E mm-camera: configure_wm_registers: axi channel write master 5 config
+-E mm-camera: AXI Output busUbOffset = 844
+-E mm-camera: AXI Output busUbDepth = 75
+-E mm-camera: AXI Output buslinesPerImage = 359
+-E mm-camera: AXI Output busdwordsPerLine = 59
++E mm-camera: AXI Output busUbOffset = 872
++E mm-camera: AXI Output busUbDepth = 47
++E mm-camera: AXI Output buslinesPerImage = 191
++E mm-camera: AXI Output busdwordsPerLine = 31
+ E mm-camera: AXI Output busburstLength = 3
+-E mm-camera: AXI Output busbufferNumRows = 359
+-E mm-camera: AXI Output busrowIncrement = 120
++E mm-camera: AXI Output busbufferNumRows = 191
++E mm-camera: AXI Output busrowIncrement = 64
+ E mm-camera: axi_config AXI Configuration success 
+ E mm-camera: axi_command_ops cmd_type = 1
+ E mm-camera: axi_proc_reg_update: write master 0 is active
+@@ -221,6 +160,9 @@
+ E mm-camera: axi_proc_reg_update: write master 4 is active
+ E mm-camera: axi_proc_reg_update: write master 5 is active
+ E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++I mm-camera: mctl_proc_MSG_ID_SOF_ACK: In-Correct Mode
++I caladbolg: 0000000090 cald_capctrl.c                    (9310)  1999 P [CAP] 0000000059 + Cald_CapCtrl_FSM_Func_Hal_SnapshotImageDone 
++I caladbolg: 0000000026 cald_capctrl.c                    (9388)  1999 P [CAP] 0000000004 - Cald_CapCtrl_FSM_Func_Hal_SnapshotImageDone
+ E mm-camera: axi_proc_unregister_wms: Releasing write master 0
+ E mm-camera: axi_proc_unregister_wms: Releasing write master 1
+ E mm-camera: axi_proc_unregister_wms: Releasing write master 2
+@@ -229,76 +171,75 @@
+ E mm-camera: axi_proc_unregister_wms: Releasing write master 5
+ E mm-camera: axi_proc_unregister_wms: Releasing write master 6
+ E mm-camera: axi_command_ops cmd_type = 3
+-I caladbolg:    4444742 cald_capctrl.c                    (8830)  2454 P [CAP]    4444651 + Cald_CapCtrl_FSM_Func_Hal_Shutter 
+-I caladbolg:    4445048 cald_camctrl.c                   (17348)  2454 P [PFM]    4444956 Cald_CamCtrl_FSM_Func_CamShutter
+-I caladbolg:    4445292 cald_capctrl.c                    (8838)  2454 P [CAP]    4445231 - Cald_CapCtrl_FSM_Func_Hal_Shutter
+-I caladbolg:    4446329 cald_capctrl.c                    (9310)  2454 P [CAP]    4446268 + Cald_CapCtrl_FSM_Func_Hal_SnapshotImageDone 
+-I caladbolg:    4447062 cald_capctrl.c                    (9388)  2454 P [CAP]    4447001 - Cald_CapCtrl_FSM_Func_Hal_SnapshotImageDone
+-I caladbolg:    4447184 cald_hal_qct_camera.c             (6380)  2454 P [HAL]    4447153 + Cald_Hal_Qct_If_StopYuvSnapshot 
+-E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
+-E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
+-E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
+-E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
+-I caladbolg:    4448039 cald_hal_qct_camera.c             (6434)  2454 P [HAL]    4448008 - Cald_Hal_Qct_If_StopYuvSnapshot
+-I caladbolg:    4448222 cald_camctrl.c                   (17598)  2454 P [PFM]    4448161 Cald_CamCtrl_FSM_Func_CaptureComplete
+-D libcameralight: lm3561_flash.c chip_set_data: CAMERALIGHT_TORCH_ENABLE value: 0
+-D libcameralight: lm3561_flash.c chip_set_data: CAMERALIGHT_FLASH_SYNC value: 0
+-I caladbolg:    4455638 cald_iqctrl.c                    (12259)  2471 I [INF] + Cald_IqCtrl_Callback
+-I caladbolg:    4455882 cald_iqctrl.c                    (12323)  2471 I [INF] - Cald_IqCtrl_Callback
+-I caladbolg:    4456889 cald_camctrl.c                   (17385)  2454 P [PFM]    4456828 Cald_CamCtrl_FSM_Func_ThumbnailDone
+-I caladbolg:    4457439 cald_capctrl.c                    (7709)  2454 P [CAP]    4457347 + Cald_CapCtrl_FSM_Func_StopPreview 
+-I caladbolg:    4457622 cald_hal_qct_camera.c             (6199)  2454 P [HAL]    4457530 + Cald_Hal_Qct_If_StopPreview 
+-I caladbolg:    4457836 cald_hal_qct_camera.c             (6225)  2454 P [HAL]    4457744 - Cald_Hal_Qct_If_StopPreview
+-I caladbolg:    4458568 cald_capctrl.c                    (7713)  2454 P [CAP]    4458416 - Cald_CapCtrl_FSM_Func_StopPreview
+-D ALSAStreamOps: setParameters(): keyRouting with device 0x2
+-D ALSAStreamOps: setParameters(): keyRouting with device 0x2
+-D ALSADevice: route: devices 0x2 in mode 0
+-D ALSADevice: No valid input device: 0
+-D alsa_ucm: snd_use_case_set(): uc_mgr 0xb8e29ef0 identifier _enadev value Speaker
+-D ALSADevice: switchDevice: mCurTxUCMDevivce None mCurRxDevDevice Speaker
+-I caladbolg:    4463512 cald_capctrl.c                    (7678)  2454 P [CAP]    4463451 + Cald_CapCtrl_FSM_Func_StartPreview 
+-D ALSADevice: route: devices 0x2 in mode 0
+-D ALSADevice: No valid input device: 0
+-D alsa_ucm: snd_use_case_set(): uc_mgr 0xb8e29ef0 identifier _enadev value Speaker
+-D ALSADevice: switchDevice: mCurTxUCMDevivce None mCurRxDevDevice Speaker
+-D alsa_ucm: snd_use_case_set(): uc_mgr 0xb8e29ef0 identifier _verb value HiFi
+-D alsa_ucm: Set mixer controls for Speaker enable 1
+-D alsa_ucm: acdb_id 263 cap 1 enable 1
+-D alsa_ucm: Setting mixer control: SLIM_0_RX Channels, value: Two
+-D alsa_ucm: Setting mixer control: RX3 MIX1 INP1, value: RX1
+-D alsa_ucm: Setting mixer control: RX3 MIX1 INP2, value: RX2
+-I mm-still: alloc 0xb8f6fb28
+-I mm-still: alloc 0xb8f73988
+-I mm-still: alloc 0xb8f739d8
+-I mm-still: alloc 0xb8f73ba8
+-I mm-still: alloc 0xb8f73bf8
+-I mm-still: alloc 0xb8f73c48
+-I mm-still: alloc 0xb8f73c98
+-D alsa_ucm: Setting mixer control: LINEOUT1 Volume, value: 100
+-D alsa_ucm: Setting mixer control: RX3 Digital Volume, value: 71
+-D alsa_ucm: Setting mixer control: SLIM_0_RX Channels, value: One
+-I mm-still: alloc 0xb8f73ce8
+-D alsa_ucm: Setting mixer control: RX1 MIX1 INP1, value: RX1
+-I mm-still: alloc 0xb8f73d38
+-D alsa_ucm: Setting mixer control: EAR PA Gain, value: POS_6_DB
+-D alsa_ucm: Setting mixer control: DAC1 Switch, value: 1
+-D alsa_ucm: Setting mixer control: RX1 Digital Volume, value: 80
+-D alsa_ucm: Set mixer controls for HiFi enable 1
+-D alsa_ucm: Setting mixer control: SLIMBUS_0_RX Audio Mixer MultiMedia1, value: 1
+-D ALSADevice: close: handle 0xb8dec5a8 h 0x0
+-D ALSADevice: open: handle 0xb8dec5a8, format 0x2
+-D ALSADevice: Device value returned is hw:0,0
+-I mm-still: echoes in validate image dta 0xb8f73c48 
+-I mm-still: echoes in validate image dta 0xb8f73ba8 
+-D ALSADevice: handle->format: 0x2
+-D ALSADevice: setHardwareParams: reqBuffSize 2048 channels 2 sampleRate 48000
++I caladbolg: 0000000030 cald_capctrl.c                    (8830)  1999 P [CAP] 0000000008 + Cald_CapCtrl_FSM_Func_Hal_Shutter 
++I caladbolg: 0000000027 cald_camctrl.c                   (17348)  1999 P [PFM] 0000000036 Cald_CamCtrl_FSM_Func_CamShutter
++I caladbolg: 0000000046 cald_client.c                      (941)  1998 I [INF] + Cald_Client_ICamera_CancelAutoLock 
++I caladbolg: 0000000090 cald_camctrl.c                   (15623)  1996 I [INF] Cald_CamCtrl_FSM_Func_CancelAutoLockOnSnapshot
++I caladbolg: 0000000082 cald_capctrl.c                    (8838)  1999 P [CAP] 0000000041 - Cald_CapCtrl_FSM_Func_Hal_Shutter
++I caladbolg: 0000000034 cald_capctrl.c                    (9310)  1999 P [CAP] 0000000073 + Cald_CapCtrl_FSM_Func_Hal_SnapshotImageDone 
++I caladbolg: 0000000057 cald_capctrl.c                    (9388)  1999 P [CAP] 0000000026 - Cald_CapCtrl_FSM_Func_Hal_SnapshotImageDone
++I caladbolg: 0000000001 cald_hal_qct_camera.c             (6380)  1999 P [HAL] 0000000079 + Cald_Hal_Qct_If_StopYuvSnapshot 
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++I caladbolg: 0000000006 cald_client.c                      (959)  1998 I [INF] - Cald_Client_ICamera_CancelAutoLock (0)
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++I caladbolg: 0000000027 cald_hal_qct_camera.c             (6434)  1999 P [HAL] 0000000005 - Cald_Hal_Qct_If_StopYuvSnapshot
++E MediaPlayer-JNI: QCMediaPlayer mediaplayer NOT present
++I caladbolg: 0000000071 cald_camctrl.c                   (17598)  1999 P [PFM] 0000000010 Cald_CamCtrl_FSM_Func_CaptureComplete
++I caladbolg: 0000000037 cald_iqctrl.c                    (12259)  2016 I [INF] + Cald_IqCtrl_Callback
++I caladbolg: 0000000059 cald_iqctrl.c                    (12323)  2016 I [INF] - Cald_IqCtrl_Callback
++D ExtendedUtils: extended extractor not needed, return default
++E MediaPlayer: Should have subtitle controller already set
++D NuPlayerDriver: start(0xb8378178)
++I GenericSource: start
++I ExtendedUtils: No channel mask, try channel count
++W ExtendedUtils: No bitrate info
++I NuPlayer: Could not offload audio decode, pcm offload decided :0
++E MediaPlayer: Should have subtitle controller already set
++I ACodec  : sampleRate=44100 channels=1 bits=16
++E AudioTrack: AudioTrack::set : Exit
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I caladbolg: 0000000087 cald_camctrl.c                   (17385)  1999 P [PFM] 0000000026 Cald_CamCtrl_FSM_Func_ThumbnailDone
++I caladbolg: 0000000006 cald_capctrl.c                    (7709)  1999 P [CAP] 0000000015 + Cald_CapCtrl_FSM_Func_StopPreview 
++I caladbolg: 0000000089 cald_hal_qct_camera.c             (6199)  1999 P [HAL] 0000000098 + Cald_Hal_Qct_If_StopPreview 
++I caladbolg: 0000000003 cald_hal_qct_camera.c             (6225)  1999 P [HAL] 0000000042 - Cald_Hal_Qct_If_StopPreview
++I caladbolg: 0000000092 cald_capctrl.c                    (7713)  1999 P [CAP] 0000000000 - Cald_CapCtrl_FSM_Func_StopPreview
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I caladbolg: 0000000005 cald_capctrl.c                    (7678)  1999 P [CAP] 0000000074 + Cald_CapCtrl_FSM_Func_StartPreview 
++W caladbolg: 0000000021 cald_hal_qct_imageconv.c          (1022)  2057 W [HIC] Reduction rate over
++I mm-still: alloc 0xb87be358
++I mm-still: alloc 0xb856b400
++I mm-still: alloc 0xb856b450
++I mm-still: alloc 0xb82fc728
++I mm-still: alloc 0xb87bde08
++I mm-still: alloc 0xb8475818
++I mm-still: alloc 0xb87be498
++I mm-still: alloc 0xb82fcd88
++I mm-still: alloc 0xb82fcdd8
++I mm-still: echoes in validate image dta 0xb8475818 
++I mm-still: echoes in validate image dta 0xb82fc728 
++I caladbolg: 0000000011 cald_hal_qct_camera.c             (6142)  1999 P [HAL] 0000000088 + Cald_Hal_Qct_If_StartPreview 
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
+ I mm-still: jpegw_configure,216
+ I mm-still: jpegw_configure,227, p_mobicat_data->length: 0
+ I mm-still: jpege_configure: p_encoder->config.userdefined_tables 0
+-I mm-still: value is 0xb8ebe928
+-D ALSADevice: setHardwareParams: buffer_size 16384, period_size 2048, period_cnt 8
+-I AnalyticsLogBase: PlayLogger.onLoggerConnected
+-I caladbolg:    4535388 cald_hal_qct_camera.c             (6142)  2454 P [HAL]    4535327 + Cald_Hal_Qct_If_StartPreview 
++I mm-still: value is 0xb839ed20
+ I mm-camera: config_proc_native_ctrl_cmd: CAMERA_SET_PARM_DIMENSION called
+ E mm-camera: axi_set_params: begin, axi_obj_idx = 0
+ E mm-camera: axi_set_params: begin, axi_obj_idx = 0
+@@ -311,7 +252,7 @@
+ E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 0
+ I mm-camera: config_v2_v4l2_request: MSM_V4L2_VID_CAP_TYPE called.
+ I mm-camera: config_update_stream_info: inst_idx : 1
+-I mm-camera: config_update_stream_info Storing stream parameters for video inst 1 as : width = 960, height 720, format = 1 inst_handle = 00000000 cid = 0
++I mm-camera: config_update_stream_info Storing stream parameters for video inst 1 as : width = 1600, height 1200, format = 1 inst_handle = 00000000 cid = 0
+ I mm-camera: config_MSM_V4L2_STREAM_ON, - Inside Stream ON
+ E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 0
+ I mm-camera: config_MSM_V4L2_STREAM_ON User set bundle 0, Stream on 1 for 1
+@@ -323,48 +264,23 @@
+ I mm-camera: config_v2_CAMERA_SET_CHANNEL_STREAM rc = 0, status = 1
+ I mm-camera: config_decide_vfe_outputs: Ports Used 1, Op mode 64
+ I mm-camera: config_decide_vfe_outputs Current mode 2 Full size streaming : Disabled
+-I mm-camera: config_decide_vfe_outputs: Primary: 960x720, extra_pad: 0x0, Fmt: 1, Type: 1, Path: 1
+-I mm-camera: config_decide_vfe_outputs: Secondary: 960x720, extra_pad: 0x0, Fmt: 0, Type: 0, Path: 0
++I mm-camera: config_decide_vfe_outputs: Primary: 1600x1200, extra_pad: 0x0, Fmt: 1, Type: 1, Path: 1
++I mm-camera: config_decide_vfe_outputs: Secondary: 1600x1200, extra_pad: 0x0, Fmt: 0, Type: 0, Path: 0
+ I mm-camera: config_MSM_V4L2_STREAM_ON pstreamon_bundle_mask 0
+ E mm-camera: axi_command_ops cmd_type = 0
+-E mm-camera: config_update_inst_handles: Single rdi enabled
+-I mm-camera: config_update_inst_handles Updated the inst handles as 00000000, 0, 0, 0, 0 
+-I AnalyticsLogBase: PlayLogger.onLoggerConnected
+-I mm-still: echoes 0xb8f71bac 0xb8f71b8c 0xb8f724d0 0xb8f724dc
++I mm-still: echoes 0xb8559d6c 0xb8559d4c 0xb855a690 0xb855a69c
+ I mm-still: jpege_engine_hw_start luma_size = 00000000 chroma_size = 7990272 size = 7990272 y_len =7990272
+ I mm-still: jpege_engine_hw_start: Additional paddding = 0
+ E gemini  : gemini_lib_hw_pipeline_cfg:220] Gemini Cfg 0x38063fb
+ I mm-still: jpege_engine_hw_input_buf_enq: paddedHeight =2448 paddedWidth=3264 ylen = 7990272,cbcr_length=3995136 jpege_engine_hw_encode=0 y_off = 0cbcr_off = 0
+-E mm-camera: ION allocation failed
+-I mm-still: jpege_engine_allocate_output_buf:355] fail to allocate PMEM for gemini output
+-E mm-camera: ION allocation failed
+-I mm-still: jpege_engine_allocate_output_buf:355] fail to allocate PMEM for gemini output
+-I mm-still: jpege_engine_hw_start: jpege_engine_hw_output_buf_enq failed
+-E mm-camera: [CAMIF]: semc_camif_jpegenc_event_callback:JPEG_EVENT: UNKNOWN
+-I mm-still: free 0xb8f73ba8
+-I mm-still: free 0xb8f73bf8
+-I mm-still: free 0xb8f73c48
+-I mm-still: free 0xb8f73c98
+-I mm-still: free 0xb8f73ce8
+-I mm-still: free 0xb8f73d38
+-I mm-still: free 0xb8f739d8
+-I mm-still: free 0xb8f6fb28
+-I mm-still: free 0xb8f73988
+-I mm-still: alloc 0xb8f6fb28
+-I mm-still: alloc 0xb8f6f0e0
+-I mm-still: alloc 0xb8f6f130
+-I mm-still: alloc 0xb8f37ef8
+-I mm-still: alloc 0xb8f73928
+-I mm-still: alloc 0xb8f73978
+-I mm-still: alloc 0xb8f739c8
+-I mm-still: alloc 0xb8f73a18
+-I mm-still: alloc 0xb8f73a68
+-I mm-still: echoes in validate image dta 0xb8f73978 
+-I mm-still: echoes in validate image dta 0xb8f37ef8 
+-I mm-still: jpegw_configure,216
+-I mm-still: jpegw_configure,227, p_mobicat_data->length: 0
+-I mm-still: jpege_configure: p_encoder->config.userdefined_tables 0
+-I mm-still: value is 0xb8ebe928
++E mm-camera: config_update_inst_handles: Single rdi enabled
++I mm-camera: config_update_inst_handles Updated the inst handles as 00000000, 0, 0, 0, 0 
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
+ I mm-camera: vfe_process: op_mode : 4
+ I mm-camera: vfe_config_mode: VideoCFg config 17ffffff
+ I mm-camera: sony_vfe_enable_modules: linearization enable[1]
+@@ -394,11 +310,11 @@
+ E mm-camera: axi_set_params: begin, axi_obj_idx = 0
+ E mm-camera: axi_set_params: begin, axi_obj_idx = 0
+ I mm-camera: axi_update_UB_data Total UB size available for image masters 920
+-I mm-camera: axi_update_UB_data: rem_size:748, minUbSize: 16
+-I mm-camera: axi_update_UB_data: prev_p1_size:0, prev_p2_size: 0 prev_p3_size:0,                    main_p1_size: 76 main_p2_size:96, main_p3_size: 0
++I mm-camera: axi_update_UB_data: rem_size:668, minUbSize: 16
++I mm-camera: axi_update_UB_data: prev_p1_size:0, prev_p2_size: 0 prev_p3_size:0,                    main_p1_size: 116 main_p2_size:136, main_p3_size: 0
+ I mm-camera: axi_update_UB_data Operation mode = 64 
+-I mm-camera: axi_update_UB_data Image master 0 UB Offset 0 UB Size 823
+-I mm-camera: axi_update_UB_data Image master 1 UB Offset 824 UB Size 95
++I mm-camera: axi_update_UB_data Image master 0 UB Offset 0 UB Size 783
++I mm-camera: axi_update_UB_data Image master 1 UB Offset 784 UB Size 135
+ I mm-camera: axi_update_UB_data Image master 2 UB Offset 0 UB Size 0
+ I mm-camera: axi_update_UB_data Image master 3 UB Offset 0 UB Size 0
+ I mm-camera: axi_update_UB_data Image master 4 UB Offset 0 UB Size 0
+@@ -418,473 +334,1882 @@
+ E mm-camera: AXI Output busWrSkipCfg = 0
+ E mm-camera: configure_wm_registers: axi channel write master 0 config
+ E mm-camera: AXI Output busUbOffset = 0
+-E mm-camera: AXI Output busUbDepth = 823
+-E mm-camera: AXI Output buslinesPerImage = 719
+-E mm-camera: AXI Output busdwordsPerLine = 59
++E mm-camera: AXI Output busUbDepth = 783
++E mm-camera: AXI Output buslinesPerImage = 1199
++E mm-camera: AXI Output busdwordsPerLine = 99
+ E mm-camera: AXI Output busburstLength = 3
+-E mm-camera: AXI Output busbufferNumRows = 719
+-E mm-camera: AXI Output busrowIncrement = 120
++E mm-camera: AXI Output busbufferNumRows = 1199
++E mm-camera: AXI Output busrowIncrement = 200
+ E mm-camera: configure_wm_registers: axi channel write master 1 config
+-E mm-camera: AXI Output busUbOffset = 824
+-E mm-camera: AXI Output busUbDepth = 95
+-E mm-camera: AXI Output buslinesPerImage = 359
+-E mm-camera: AXI Output busdwordsPerLine = 59
++E mm-camera: AXI Output busUbOffset = 784
++E mm-camera: AXI Output busUbDepth = 135
++E mm-camera: AXI Output buslinesPerImage = 599
++E mm-camera: AXI Output busdwordsPerLine = 99
+ E mm-camera: AXI Output busburstLength = 3
+-E mm-camera: AXI Output busbufferNumRows = 359
+-E mm-camera: AXI Output busrowIncrement = 120
++E mm-camera: AXI Output busbufferNumRows = 599
++E mm-camera: AXI Output busrowIncrement = 200
+ E mm-camera: axi_config AXI Configuration success 
+ E mm-camera: axi_command_ops cmd_type = 1
+-I mm-still: echoes 0xb8f71bac 0xb8f71b8c 0xb8f724d0 0xb8f724dc
++I mm_camera-mctl_pp: mctl_pp_cmd: pipe for mctl pp thread is already closed.
++E mm-camera: axi_proc_reg_update: write master 0 is active
++E mm-camera: axi_proc_reg_update: write master 1 is active
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++I caladbolg: 0000000041 cald_hal_qct_camera.c             (6189)  1999 P [HAL] 0000000050 - Cald_Hal_Qct_If_StartPreview
++I caladbolg: 0000000094 cald_capctrl.c                    (7697)  1999 P [CAP] 0000000033 - Cald_CapCtrl_FSM_Func_StartPreview
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I mm-still: free 0xb82fc728
++I mm-still: free 0xb87bde08
++I mm-still: free 0xb8475818
++I mm-still: free 0xb87be498
++I mm-still: free 0xb82fcd88
++I mm-still: free 0xb82fcdd8
++I mm-still: free 0xb856b450
++I mm-still: free 0xb87be358
++I mm-still: free 0xb856b400
++I caladbolg: 0000000083 cald_camctrl.c                   (17502)  1999 P [PFM] 0000000022 Cald_CamCtrl_FSM_Func_CaptureCompSnapshotDone
++W AudioService: stream was not muted by this client
++E AudioService: Could not get client death handler for stream: 1
++W AudioService: stream was not muted by this client
++E AudioService: Could not get client death handler for stream: 2
++W AudioService: stream was not muted by this client
++E AudioService: Could not get client death handler for stream: 5
++W AudioService: stream was not muted by this client
++E AudioService: Could not get client death handler for stream: 7
++W AudioService: stream was not muted by this client
++E AudioService: Could not get client death handler for stream: 8
++W MediaPlayer-JNI: MediaPlayer finalized without being released
++I art     : WaitForGcToComplete blocked for 14.771ms for cause HeapTrim
++D NuPlayerDriver: reset(0xb82fc628)
++W caladbolg: 0000000008 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=7630
++D NuPlayerDriver: notifyResetComplete(0xb82fc628)
++I caladbolg: 0000000031 cald_camctrl.c                   (13253)  1999 P [PFM] 0000000070 Cald_CamCtrl_Func_FrameDoneVF
++I caladbolg: 0000000053 cald_camctrl.c                   (13265)  1999 I [INF] - Cald_CamCtrl_Func_FrameDoneVF
++E idd-api : idd_set_sdata: send failed, socket 20, errcode -2 (No such file or directory)
++W caladbolg: 0000000046 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=7111
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000073 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10499
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000003 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=7569
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000038 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=7508
++W caladbolg: 0000000085 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=14954
++I iu.UploadsManager: #reloadSettings(); account: -1; IU: disabled; IS: disabled; IS account: -1; photoWiFi: true; videoWiFi: true; roam: false; battery: true; size: STANDARD; maxMobile: 000000000
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000016 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=7722
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000027 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=6928
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000001 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=14802
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000097 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=7477
++W caladbolg: 0000000017 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=14497
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000092 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=7203
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000083 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=14864
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000059 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=7599
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I iu.UploadsManager: NEW; upload media id: 20965; iu: -1
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I iu.UploadsManager: End new media; added: 2, uploading: 1, time: 722 ms
++W caladbolg: 0000000047 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=8606
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000035 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=7355
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000018 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=7661
++I LoadedApk: No resource references to update in package common
++I LoadedApk: No resource references to update in package com.resurrectionremix.pitchblack
++I LoadedApk: No resource references to update in package com.zyxxeil.milos.ui
++I GservicesProvider: Gservices pushing to system: true; secure/global: true
++W caladbolg: 0000000033 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=6867
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: Preview average frame rate : 12.6490 (fps)
++W caladbolg: 0000000094 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=7570
++W caladbolg: 0000000022 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=8179
++I GoogleHttpClient: GMS http client unavailable, use old client
++W caladbolg: 0000000009 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=7874
++I GoogleHttpClient: GMS http client unavailable, use old client
++W caladbolg: 0000000009 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=11384
++W caladbolg: 0000000099 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10651
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000039 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10743
++W caladbolg: 0000000038 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=11506
++W caladbolg: 0000000022 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=6897
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000096 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=14772
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++D libcameralight: lm3561_flash.c chip_set_data: CAMERALIGHT_TORCH_ENABLE value: 0
++I caladbolg: 0000000004 cald_camctrl.c                   (11707)  1996 I [INF] Thumbnail size [1600 x 1200]
++I caladbolg: 0000000063 cald_client.c                      (113)   908 I [INF] + Cald_Client_ICamera_GetCameraCaps 
++I caladbolg: 0000000015 cald_client.c                      (137)   908 I [INF] - Cald_Client_ICamera_GetCameraCaps (0)
++I caladbolg: 0000000007 cald_client.c                      (151)   908 I [INF] + Cald_Client_ICamera_GetPreviewCaps 
++I caladbolg: 0000000090 cald_client.c                      (177)   908 I [INF] - Cald_Client_ICamera_GetPreviewCaps (0)
++I caladbolg: 0000000051 cald_client.c                      (268)   908 I [INF] + Cald_Client_ICamera_GetSnapshotCaps 
++I caladbolg: 0000000004 cald_client.c                      (293)   908 I [INF] - Cald_Client_ICamera_GetSnapshotCaps (0)
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000040 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=8790
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000048 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=8179
++D ALSADevice: standby: handle 0xb82dad08 h 0x0
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000065 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=6379
++D OpenGLRenderer: endAllStagingAnimators on 0xb76e8a58 (RippleDrawable) with handle 0xb75d97b8
++D alsa_ucm: snd_use_case_set(): uc_mgr 0xb829d3c8 identifier _verb value Inactive
++D alsa_ucm: Set mixer controls for HiFi enable 0
++D alsa_ucm: Setting mixer control: SLIMBUS_0_RX Audio Mixer MultiMedia1, value: 0
++D alsa_ucm: snd_use_case_set(): uc_mgr 0xb829d3c8 identifier _disdev value Speaker
++D alsa_ucm: Set mixer controls for Speaker enable 0
++D alsa_ucm: Setting mixer control: RX3 MIX1 INP1, value: ZERO
++D alsa_ucm: Setting mixer control: RX3 MIX1 INP2, value: ZERO
++D alsa_ucm: Setting mixer control: LINEOUT1 Volume, value: 0
++D AudioUsbALSA: exitPlaybackThread, mproxypfdPlayback: -1
++D AudioUsbALSA: closeDevice handle 0x0
++D AudioUsbALSA: closeDevice handle 0x0
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000026 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10194
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000093 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=8820
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000040 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10651
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000056 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=6043
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000021 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=13947
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I caladbolg: 0000000048 cald_client.c                      (910) 15260 I [INF] + Cald_Client_ICamera_StartAutoLock lockAF[1] lockAE[0] lockAWB[0]
++I caladbolg: 0000000001 cald_client.c                      (931) 15260 I [INF] - Cald_Client_ICamera_StartAutoLock (0)
++I caladbolg: 0000000015 cald_camctrl.c                    (5723)  1996 P [PFM] 0000000054 Cald_CamCtrl_ICamera_StartAutoLock
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000073 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=5860
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000035 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=12452
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000065 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=6379
++W caladbolg: 0000000077 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=12361
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000081 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=5737
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000019 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10835
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000000 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=9919
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000080 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=3693
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000080 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=13124
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000067 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=5096
++W caladbolg: 0000000012 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=11780
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000005 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10407
++W caladbolg: 0000000021 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=4212
++W caladbolg: 0000000064 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=9675
++W caladbolg: 0000000074 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=12482
++W caladbolg: 0000000083 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10499
++W caladbolg: 0000000094 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10438
++I libcamera: Preview average frame rate : 20.8469 (fps)
++W caladbolg: 0000000020 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=9920
++W caladbolg: 0000000081 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=11079
++W caladbolg: 0000000061 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10590
++W caladbolg: 0000000057 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=3479
++W caladbolg: 0000000037 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=8759
++W caladbolg: 0000000041 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=14802
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000085 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=8790
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I caladbolg: 0000000088 cald_iqctrl.c                    (12259)  2016 I [INF] + Cald_IqCtrl_Callback
++I caladbolg: 0000000041 cald_camctrl.c                    (5179)  2016 P [PFM] 0000000080 Cald_CamCtrl_ICBIqCtrl_AutoLockDone
++I caladbolg: 0000000041 cald_iqctrl.c                    (12323)  2016 I [INF] - Cald_IqCtrl_Callback
++E MediaPlayer-JNI: QCMediaPlayer mediaplayer NOT present
++D ExtendedUtils: extended extractor not needed, return default
++E MediaPlayer: Should have subtitle controller already set
++D NuPlayerDriver: start(0xb840e288)
++I GenericSource: start
++E MediaPlayer: Should have subtitle controller already set
++I ExtendedUtils: No channel mask, try channel count
++W ExtendedUtils: No bitrate info
++I NuPlayer: Could not offload audio decode, pcm offload decided :0
++I ACodec  : sampleRate=48000 channels=2 bits=16
++E AudioTrack: AudioTrack::set : Exit
++D ALSADevice: route: devices 0x2 in mode 0
++D ALSADevice: No valid input device: 0
++D alsa_ucm: snd_use_case_set(): uc_mgr 0xb829d3c8 identifier _enadev value Speaker
++D ALSADevice: switchDevice: mCurTxUCMDevivce None mCurRxDevDevice Speaker
++D alsa_ucm: snd_use_case_set(): uc_mgr 0xb829d3c8 identifier _verb value HiFi
++D alsa_ucm: Set mixer controls for Speaker enable 1
++D alsa_ucm: acdb_id 263 cap 1 enable 1
++D alsa_ucm: Setting mixer control: SLIM_0_RX Channels, value: Two
++D alsa_ucm: Setting mixer control: RX3 MIX1 INP1, value: RX1
++D alsa_ucm: Setting mixer control: RX3 MIX1 INP2, value: RX2
++D alsa_ucm: Setting mixer control: LINEOUT1 Volume, value: 100
++D alsa_ucm: Setting mixer control: RX3 Digital Volume, value: 71
++D alsa_ucm: Set mixer controls for HiFi enable 1
++D alsa_ucm: Setting mixer control: SLIMBUS_0_RX Audio Mixer MultiMedia1, value: 1
++D ALSADevice: close: handle 0xb82dad08 h 0x0
++D ALSADevice: open: handle 0xb82dad08, format 0x2
++D ALSADevice: Device value returned is hw:0,0
++D ALSADevice: handle->format: 0x2
++D ALSADevice: setHardwareParams: reqBuffSize 2048 channels 2 sampleRate 48000
++D ALSADevice: setHardwareParams: buffer_size 16384, period_size 2048, period_cnt 8
++W caladbolg: 0000000057 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=5921
++W caladbolg: 0000000028 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=7233
++W caladbolg: 0000000092 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=14467
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000030 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=14436
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++E CFV5    : getNewFilename: 0000000065013
++E CFV5    : getNewFilename: 0000000065023
++I caladbolg: 0000000078 cald_client.c                      (464)   822 I [INF] + Cald_Client_ICamera_GetBufInfo index[0x2]
++I caladbolg: 0000000080 cald_client.c                      (487)   822 I [INF] - Cald_Client_ICamera_GetBufInfo (0)
++I caladbolg: 0000000002 cald_client.c                      (464)   822 I [INF] + Cald_Client_ICamera_GetBufInfo index[0x3]
++I caladbolg: 0000000085 cald_client.c                      (487)   822 I [INF] - Cald_Client_ICamera_GetBufInfo (0)
++I caladbolg: 0000000064 cald_client.c                      (755)   822 I [INF] + Cald_Client_ICamera_EnableThumbnail 
++I caladbolg: 0000000056 cald_client.c                      (772)   822 I [INF] pBufNum[1]
++I caladbolg: 0000000008 cald_client.c                      (778)   822 I [INF] pBuf[0]:0xad065000
++I caladbolg: 0000000013 cald_client.c                      (792)   822 I [INF] - Cald_Client_ICamera_EnableThumbnail (0)
++I caladbolg: 0000000005 cald_client.c                      (832)   822 I [INF] + Cald_Client_ICamera_TakeSnapshot 
++I caladbolg: 0000000096 cald_client.c                      (849)   822 I [INF] pBufNum[1]
++I caladbolg: 0000000088 cald_client.c                      (855)   822 I [INF] pBuf[0]:0xad325000
++I caladbolg: 0000000071 cald_camctrl.c                    (5668)  1996 P [PFM] 0000000010 Cald_CamCtrl_ICamera_TakeSnapshot
++I caladbolg: 0000000074 cald_client.c                      (869)   822 I [INF] - Cald_Client_ICamera_TakeSnapshot (0)
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I caladbolg: 0000000022 cald_iqctrl.c                    (12259)  2016 I [INF] + Cald_IqCtrl_Callback
++I caladbolg: 0000000005 cald_camctrl.c                    (5203)  2016 P [PFM] 0000000044 Cald_CamCtrl_ICBIqCtrl_PrepareSnapshotDone
++I caladbolg: 0000000058 cald_iqctrl.c                    (12323)  2016 I [INF] - Cald_IqCtrl_Callback
++I caladbolg: 0000000041 cald_capctrl.c                    (7709)  1999 P [CAP] 0000000010 + Cald_CapCtrl_FSM_Func_StopPreview 
++I caladbolg: 0000000093 cald_hal_qct_camera.c             (6199)  1999 P [HAL] 0000000032 + Cald_Hal_Qct_If_StopPreview 
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++I mm-camera: config_v2_CAMERA_STOP_VIDEO:, ctrl->state = 5
++E mm-camera: axi_command_ops cmd_type = 2
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++E mm-camera: axi_proc_unregister_wms: Releasing write master 0
++E mm-camera: axi_proc_unregister_wms: Releasing write master 1
++E mm-camera: axi_proc_unregister_wms: Releasing write master 2
++E mm-camera: axi_proc_unregister_wms: Releasing write master 3
++E mm-camera: axi_proc_unregister_wms: Releasing write master 4
++E mm-camera: axi_proc_unregister_wms: Releasing write master 5
++E mm-camera: axi_proc_unregister_wms: Releasing write master 6
++E mm-camera: axi_command_ops cmd_type = 3
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++I caladbolg: 0000000066 cald_hal_qct_camera.c             (6225)  1999 P [HAL] 0000000005 - Cald_Hal_Qct_If_StopPreview
++I caladbolg: 0000000041 cald_capctrl.c                    (7713)  1999 P [CAP] 0000000050 - Cald_CapCtrl_FSM_Func_StopPreview
++I caladbolg: 0000000064 cald_capctrl.c                    (7835)  1999 P [CAP] 0000000033 + Cald_CapCtrl_FSM_Func_StartSnapshot 
++I caladbolg: 0000000068 cald_hal_qct_camera.c             (6324)  1999 P [HAL] 0000000007 + Cald_Hal_Qct_If_StartYuvSnapshot 
++I caladbolg: 0000000034 cald_hal_qct_camera.c             (6369)  1999 P [HAL] 0000000073 - Cald_Hal_Qct_If_StartYuvSnapshot
++I caladbolg: 0000000061 cald_capctrl.c                    (8297)  1999 P [CAP] 0000000017 - Cald_CapCtrl_FSM_Func_StartSnapshot
++I mm-camera: config_proc_native_ctrl_cmd: CAMERA_SET_PARM_DIMENSION called
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: config_validate_dimension: RDI 0: W X H: 1640 X 1232, RDI 1: W X H: 1640 X 616
++E mm-camera: config_validate_dimension: RDI2: W X H: 0 X 0
++E mm-camera: ispif_client_set_params, stream_mask: 0, index: 1 0
++E mm-camera: ispif_client_set_params, Lenght: 0
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 0
++I mm-camera: config_v2_v4l2_request: MSM_V4L2_VID_CAP_TYPE called.
++I mm-camera: config_update_stream_info: inst_idx : 1
++I mm-camera: config_update_stream_info Storing stream parameters for video inst 1 as : width = 3264, height 2464, format = 0 inst_handle = 00000000 cid = 0
++I mm-camera: config_v2_v4l2_request: MSM_V4L2_VID_CAP_TYPE called.
++I mm-camera: config_update_stream_info: inst_idx : 2
++I mm-camera: config_update_stream_info Storing stream parameters for video inst 2 as : width = 512, height 384, format = 1 inst_handle = 00000000 cid = 0
++I mm-camera: config_MSM_V4L2_STREAM_ON, - Inside Stream ON
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 0
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 0
++I mm-camera: config_MSM_V4L2_STREAM_ON, - Inside Stream ON
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 0
++E mm-camera: ispif_client_set_params, stream_mask: 1, index: 1 1
++E mm-camera: ispif_client_set_params, Lenght: 1
++E mm-camera: ispif_client_set_params, i: 0, InterfaceType: 0
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++I mm-camera: config_v2_CAMERA_SET_CHANNEL_STREAM rc = 0, status = 1
++I mm-camera: config_decide_vfe_outputs: Ports Used 3, Op mode 4
++I mm-camera: config_decide_vfe_outputs Current mode 4 Full size streaming : Disabled
++I mm-camera: config_decide_vfe_outputs: Primary: 3264x2464, extra_pad: 0x0, Fmt: 0, Type: 3, Path: 4
++I mm-camera: config_decide_vfe_outputs: Secondary: 512x384, extra_pad: 0x0, Fmt: 0, Type: 4, Path: 2
++E mm-camera: axi_command_ops cmd_type = 0
++E mm-camera: config_update_inst_handles: Single rdi enabled
++I mm-camera: config_update_inst_handles Updated the inst handles as 00000000, 00000000, 0, 0, 0 
++I mm-camera: vfe_process: op_mode : 2
++I mm-camera: vfe_config_mode: SnapshotCfg config 1f1ffff
++I mm-camera: sony_vfe_enable_modules: linearization enable[1]
++I mm-camera: sony_vfe_enable_modules: fov enable[1]
++I mm-camera: sony_vfe_enable_modules: scaler enable[1]
++I mm-camera: sony_vfe_enable_modules: rolloff enable[1]
++I mm-camera: sony_vfe_enable_modules: Demosaic enable[1]
++I mm-camera: sony_vfe_enable_modules: Demosaic BPC enable[1]
++I mm-camera: sony_vfe_enable_modules: Demosaic BCC enable[1]
++I mm-camera: sony_vfe_enable_modules: asf enable[1]
++I mm-camera: sony_vfe_enable_modules: demux enable[1]
++I mm-camera: sony_vfe_enable_modules: wb enable[1]
++I mm-camera: sony_vfe_enable_modules: CV enable[1]
++I mm-camera: sony_vfe_enable_modules: cc enable[1]
++I mm-camera: sony_vfe_enable_modules: gamma enable[1]
++I mm-camera: sony_vfe_enable_modules: abf enable[1]
++I mm-camera: sony_vfe_enable_modules: clf enable[0]
++I mm-camera: sony_vfe_enable_modules: la enable[0]
++I mm-camera: sony_vfe_enable_modules: Chroma SS enable[1]
++I mm-camera: sony_vfe_enable_modules: Frame skip config[1]
++I mm-camera: sony_vfe_enable_modules: MCE enable[0]
++I mm-camera: sony_vfe_enable_modules: SCE enable[1]
++I mm-camera: sony_vfe_enable_modules: Chroma suppression enable[1]
++I mm-camera: vfe_operation_config: format 1
++I mm-camera: vfe_operation_config:vfe_op_mode=2
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++I mm-camera: axi_update_UB_data Total UB size available for image masters 920
++I mm-camera: axi_update_UB_data: rem_size:364, minUbSize: 16
++I mm-camera: axi_update_UB_data: prev_p1_size:48, prev_p2_size: 48 prev_p3_size:0,                    main_p1_size: 220 main_p2_size:240, main_p3_size: 0
++I mm-camera: axi_update_UB_data Operation mode = 4 
++I mm-camera: axi_update_UB_data Image master 0 UB Offset 0 UB Size 583
++I mm-camera: axi_update_UB_data Image master 1 UB Offset 584 UB Size 239
++I mm-camera: axi_update_UB_data Image master 2 UB Offset 0 UB Size 0
++I mm-camera: axi_update_UB_data Image master 3 UB Offset 0 UB Size 0
++I mm-camera: axi_update_UB_data Image master 4 UB Offset 824 UB Size 47
++I mm-camera: axi_update_UB_data Image master 5 UB Offset 872 UB Size 47
++I mm-camera: axi_update_UB_data Image master 6 UB Offset 0 UB Size 0
++E mm-camera: axi_config: begin
++E mm-camera: axi_vfe_config_snapshot begin 
++E mm-camera: axi_vfe_config_snapshot: AXI Config
++E mm-camera: AXI Output busCmd = 0
++E mm-camera: AXI Output busCfg = 00000000
++E mm-camera: AXI Output xbarCfg0 = 6656
++E mm-camera: AXI Output xbarCfg1 = 6913
++E mm-camera: AXI Output busWrSkipCfg = 0
++E mm-camera: configure_wm_registers: axi channel write master 0 config
++E mm-camera: AXI Output busUbOffset = 0
++E mm-camera: AXI Output busUbDepth = 583
++E mm-camera: AXI Output buslinesPerImage = 2463
++E mm-camera: AXI Output busdwordsPerLine = 203
++E mm-camera: AXI Output busburstLength = 3
++E mm-camera: AXI Output busbufferNumRows = 2463
++E mm-camera: AXI Output busrowIncrement = 408
++E mm-camera: configure_wm_registers: axi channel write master 1 config
++E mm-camera: AXI Output busUbOffset = 584
++E mm-camera: AXI Output busUbDepth = 239
++E mm-camera: AXI Output buslinesPerImage = 1231
++E mm-camera: AXI Output busdwordsPerLine = 203
++E mm-camera: AXI Output busburstLength = 3
++E mm-camera: AXI Output busbufferNumRows = 1231
++E mm-camera: AXI Output busrowIncrement = 408
++E mm-camera: configure_wm_registers: axi channel write master 4 config
++E mm-camera: AXI Output busUbOffset = 824
++E mm-camera: AXI Output busUbDepth = 47
++E mm-camera: AXI Output buslinesPerImage = 383
++E mm-camera: AXI Output busdwordsPerLine = 31
++E mm-camera: AXI Output busburstLength = 3
++E mm-camera: AXI Output busbufferNumRows = 383
++E mm-camera: AXI Output busrowIncrement = 64
++E mm-camera: configure_wm_registers: axi channel write master 5 config
++E mm-camera: AXI Output busUbOffset = 872
++E mm-camera: AXI Output busUbDepth = 47
++E mm-camera: AXI Output buslinesPerImage = 191
++E mm-camera: AXI Output busdwordsPerLine = 31
++E mm-camera: AXI Output busburstLength = 3
++E mm-camera: AXI Output busbufferNumRows = 191
++E mm-camera: AXI Output busrowIncrement = 64
++E mm-camera: axi_config AXI Configuration success 
++E mm-camera: axi_command_ops cmd_type = 1
++E mm-camera: axi_proc_reg_update: write master 0 is active
++E mm-camera: axi_proc_reg_update: write master 1 is active
++E mm-camera: axi_proc_reg_update: write master 4 is active
++E mm-camera: axi_proc_reg_update: write master 5 is active
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++I mm-camera: mctl_proc_MSG_ID_SOF_ACK: In-Correct Mode
++I caladbolg: 0000000082 cald_capctrl.c                    (9310)  1999 P [CAP] 0000000051 + Cald_CapCtrl_FSM_Func_Hal_SnapshotImageDone 
++I caladbolg: 0000000016 cald_capctrl.c                    (9388)  1999 P [CAP] 0000000033 - Cald_CapCtrl_FSM_Func_Hal_SnapshotImageDone
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++E mm-camera: axi_proc_unregister_wms: Releasing write master 0
++E mm-camera: axi_proc_unregister_wms: Releasing write master 1
++E mm-camera: axi_proc_unregister_wms: Releasing write master 2
++E mm-camera: axi_proc_unregister_wms: Releasing write master 3
++E mm-camera: axi_proc_unregister_wms: Releasing write master 4
++E mm-camera: axi_proc_unregister_wms: Releasing write master 5
++E mm-camera: axi_proc_unregister_wms: Releasing write master 6
++E mm-camera: axi_command_ops cmd_type = 3
++I caladbolg: 0000000042 cald_capctrl.c                    (8830)  1999 P [CAP] 0000000059 + Cald_CapCtrl_FSM_Func_Hal_Shutter 
++I caladbolg: 0000000044 cald_camctrl.c                   (17348)  1999 P [PFM] 0000000061 Cald_CamCtrl_FSM_Func_CamShutter
++I caladbolg: 0000000094 cald_capctrl.c                    (8838)  1999 P [CAP] 0000000041 - Cald_CapCtrl_FSM_Func_Hal_Shutter
++I caladbolg: 0000000038 cald_client.c                      (941)  1998 I [INF] + Cald_Client_ICamera_CancelAutoLock 
++I caladbolg: 0000000051 cald_capctrl.c                    (9310)  1999 P [CAP] 0000000099 + Cald_CapCtrl_FSM_Func_Hal_SnapshotImageDone 
++I caladbolg: 0000000065 cald_camctrl.c                   (15623)  1996 I [INF] Cald_CamCtrl_FSM_Func_CancelAutoLockOnSnapshot
++I caladbolg: 0000000018 cald_capctrl.c                    (9388)  1999 P [CAP] 0000000065 - Cald_CapCtrl_FSM_Func_Hal_SnapshotImageDone
++I caladbolg: 0000000045 cald_client.c                      (959)  1998 I [INF] - Cald_Client_ICamera_CancelAutoLock (0)
++I caladbolg: 0000000006 cald_hal_qct_camera.c             (6380)  1999 P [HAL] 0000000023 + Cald_Hal_Qct_If_StopYuvSnapshot 
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++E MediaPlayer-JNI: QCMediaPlayer mediaplayer NOT present
++I caladbolg: 0000000070 cald_hal_qct_camera.c             (6434)  1999 P [HAL] 0000000056 - Cald_Hal_Qct_If_StopYuvSnapshot
++I caladbolg: 0000000080 cald_camctrl.c                   (17598)  1999 P [PFM] 0000000028 Cald_CamCtrl_FSM_Func_CaptureComplete
++I caladbolg: 0000000017 cald_iqctrl.c                    (12259)  2016 I [INF] + Cald_IqCtrl_Callback
++I caladbolg: 0000000075 cald_iqctrl.c                    (12323)  2016 I [INF] - Cald_IqCtrl_Callback
++D ExtendedUtils: extended extractor not needed, return default
++E MediaPlayer: Should have subtitle controller already set
++D NuPlayerDriver: start(0xb87c19d8)
++I GenericSource: start
++I ExtendedUtils: No channel mask, try channel count
++W ExtendedUtils: No bitrate info
++I NuPlayer: Could not offload audio decode, pcm offload decided :0
++E MediaPlayer: Should have subtitle controller already set
++I ACodec  : sampleRate=44100 channels=1 bits=16
++E AudioTrack: AudioTrack::set : Exit
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I caladbolg: 0000000026 cald_camctrl.c                   (17385)  1999 P [PFM] 0000000065 Cald_CamCtrl_FSM_Func_ThumbnailDone
++I caladbolg: 0000000083 cald_capctrl.c                    (7709)  1999 P [CAP] 0000000022 + Cald_CapCtrl_FSM_Func_StopPreview 
++I caladbolg: 0000000036 cald_hal_qct_camera.c             (6199)  1999 P [HAL] 0000000075 + Cald_Hal_Qct_If_StopPreview 
++I caladbolg: 0000000080 cald_hal_qct_camera.c             (6225)  1999 P [HAL] 0000000028 - Cald_Hal_Qct_If_StopPreview
++I caladbolg: 0000000046 cald_capctrl.c                    (7713)  1999 P [CAP] 0000000055 - Cald_CapCtrl_FSM_Func_StopPreview
++W caladbolg: 0000000005 cald_hal_qct_imageconv.c          (1022)  2133 W [HIC] Reduction rate over
++I caladbolg: 0000000093 cald_capctrl.c                    (7678)  1999 P [CAP] 0000000044 + Cald_CapCtrl_FSM_Func_StartPreview 
++I mm-still: alloc 0xb8395e58
++I mm-still: alloc 0xb8395ea8
++I mm-still: alloc 0xb87c12d8
++I mm-still: alloc 0xb8827708
++I mm-still: alloc 0xb842d410
++I mm-still: alloc 0xb842d460
++I mm-still: alloc 0xb842d4b0
++I mm-still: alloc 0xb842d500
++I mm-still: alloc 0xb842d550
++I mm-still: echoes in validate image dta 0xb842d460 
++I mm-still: echoes in validate image dta 0xb8827708 
++I caladbolg: 0000000093 cald_hal_qct_camera.c             (6142)  1999 P [HAL] 0000000001 + Cald_Hal_Qct_If_StartPreview 
++I mm-still: jpegw_configure,216
++I mm-still: jpegw_configure,227, p_mobicat_data->length: 0
++I mm-still: jpege_configure: p_encoder->config.userdefined_tables 0
++I mm-still: value is 0xb839ed20
++I mm-camera: config_proc_native_ctrl_cmd: CAMERA_SET_PARM_DIMENSION called
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: config_validate_dimension: RDI 0: W X H: 1640 X 1232, RDI 1: W X H: 1640 X 616
++E mm-camera: config_validate_dimension: RDI2: W X H: 0 X 0
++E mm-camera: ispif_client_set_params, stream_mask: 0, index: 1 0
++E mm-camera: ispif_client_set_params, Lenght: 0
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 0
++I mm-camera: config_v2_v4l2_request: MSM_V4L2_VID_CAP_TYPE called.
++I mm-camera: config_update_stream_info: inst_idx : 1
++I mm-camera: config_update_stream_info Storing stream parameters for video inst 1 as : width = 1600, height 1200, format = 1 inst_handle = 00000000 cid = 0
++I mm-camera: config_MSM_V4L2_STREAM_ON, - Inside Stream ON
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 0
++I mm-camera: config_MSM_V4L2_STREAM_ON User set bundle 0, Stream on 1 for 1
++E mm-camera: ispif_client_set_params, stream_mask: 1, index: 1 1
++E mm-camera: ispif_client_set_params, Lenght: 1
++E mm-camera: ispif_client_set_params, i: 0, InterfaceType: 0
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++I mm-camera: config_v2_CAMERA_SET_CHANNEL_STREAM rc = 0, status = 1
++I mm-camera: config_decide_vfe_outputs: Ports Used 1, Op mode 64
++I mm-camera: config_decide_vfe_outputs Current mode 2 Full size streaming : Disabled
++I mm-camera: config_decide_vfe_outputs: Primary: 1600x1200, extra_pad: 0x0, Fmt: 1, Type: 1, Path: 1
++I mm-camera: config_decide_vfe_outputs: Secondary: 1600x1200, extra_pad: 0x0, Fmt: 0, Type: 0, Path: 0
++I mm-camera: config_MSM_V4L2_STREAM_ON pstreamon_bundle_mask 0
++E mm-camera: axi_command_ops cmd_type = 0
++I mm-still: echoes 0xb855454c 0xb855452c 0xb8554e70 0xb8554e7c
++I mm-still: jpege_engine_hw_start luma_size = 00000000 chroma_size = 7990272 size = 7990272 y_len =7990272
++I mm-still: jpege_engine_hw_start: Additional paddding = 0
++E mm-camera: config_update_inst_handles: Single rdi enabled
++I mm-camera: config_update_inst_handles Updated the inst handles as 00000000, 0, 0, 0, 0 
++E gemini  : gemini_lib_hw_pipeline_cfg:220] Gemini Cfg 0x38063fb
++I mm-still: jpege_engine_hw_input_buf_enq: paddedHeight =2448 paddedWidth=3264 ylen = 7990272,cbcr_length=3995136 jpege_engine_hw_encode=0 y_off = 0cbcr_off = 0
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I mm-camera: vfe_process: op_mode : 4
++I mm-camera: vfe_config_mode: VideoCFg config 17ffffff
++I mm-camera: sony_vfe_enable_modules: linearization enable[1]
++I mm-camera: sony_vfe_enable_modules: fov enable[1]
++I mm-camera: sony_vfe_enable_modules: scaler enable[1]
++I mm-camera: sony_vfe_enable_modules: rolloff enable[1]
++I mm-camera: sony_vfe_enable_modules: Demosaic enable[1]
++I mm-camera: sony_vfe_enable_modules: Demosaic BPC enable[1]
++I mm-camera: sony_vfe_enable_modules: Demosaic BCC enable[1]
++I mm-camera: sony_vfe_enable_modules: asf enable[1]
++I mm-camera: sony_vfe_enable_modules: demux enable[1]
++I mm-camera: sony_vfe_enable_modules: wb enable[1]
++I mm-camera: sony_vfe_enable_modules: CV enable[1]
++I mm-camera: sony_vfe_enable_modules: cc enable[1]
++I mm-camera: sony_vfe_enable_modules: gamma enable[1]
++I mm-camera: sony_vfe_enable_modules: abf enable[1]
++I mm-camera: sony_vfe_enable_modules: clf enable[0]
++I mm-camera: sony_vfe_enable_modules: la enable[0]
++I mm-camera: sony_vfe_enable_modules: Chroma SS enable[1]
++I mm-camera: sony_vfe_enable_modules: Frame skip config[1]
++I mm-camera: sony_vfe_enable_modules: MCE enable[0]
++I mm-camera: sony_vfe_enable_modules: SCE enable[1]
++I mm-camera: sony_vfe_enable_modules: Chroma suppression enable[1]
++I mm-camera: vfe_operation_config: format 1
++I mm-camera: vfe_operation_config:vfe_op_mode=4
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++I mm-camera: axi_update_UB_data Total UB size available for image masters 920
++I mm-camera: axi_update_UB_data: rem_size:668, minUbSize: 16
++I mm-camera: axi_update_UB_data: prev_p1_size:0, prev_p2_size: 0 prev_p3_size:0,                    main_p1_size: 116 main_p2_size:136, main_p3_size: 0
++I mm-camera: axi_update_UB_data Operation mode = 64 
++I mm-camera: axi_update_UB_data Image master 0 UB Offset 0 UB Size 783
++I mm-camera: axi_update_UB_data Image master 1 UB Offset 784 UB Size 135
++I mm-camera: axi_update_UB_data Image master 2 UB Offset 0 UB Size 0
++I mm-camera: axi_update_UB_data Image master 3 UB Offset 0 UB Size 0
++I mm-camera: axi_update_UB_data Image master 4 UB Offset 0 UB Size 0
++I mm-camera: axi_update_UB_data Image master 5 UB Offset 0 UB Size 0
++I mm-camera: axi_update_UB_data Image master 6 UB Offset 0 UB Size 0
++E mm-camera: axi_config: begin
++E mm-camera: axi_vfe_config: begin
++E mm-camera: current target is not 8930
++E mm-camera: axi_vfe_config: Primary Y, wm = 0!!
++E mm-camera: axi_vfe_config: Primary CbCr, wm = 1!!
++E mm-camera: axi_vfe_config:Primary image format 1
++E mm-camera: axi_vfe_config: AXI Config
++E mm-camera: AXI Output busCmd = 0
++E mm-camera: AXI Output busCfg = 00000000
++E mm-camera: AXI Output xbarCfg0 = 512
++E mm-camera: AXI Output xbarCfg1 = 0
++E mm-camera: AXI Output busWrSkipCfg = 0
++E mm-camera: configure_wm_registers: axi channel write master 0 config
++E mm-camera: AXI Output busUbOffset = 0
++E mm-camera: AXI Output busUbDepth = 783
++E mm-camera: AXI Output buslinesPerImage = 1199
++E mm-camera: AXI Output busdwordsPerLine = 99
++E mm-camera: AXI Output busburstLength = 3
++E mm-camera: AXI Output busbufferNumRows = 1199
++E mm-camera: AXI Output busrowIncrement = 200
++E mm-camera: configure_wm_registers: axi channel write master 1 config
++E mm-camera: AXI Output busUbOffset = 784
++E mm-camera: AXI Output busUbDepth = 135
++E mm-camera: AXI Output buslinesPerImage = 599
++E mm-camera: AXI Output busdwordsPerLine = 99
++E mm-camera: AXI Output busburstLength = 3
++E mm-camera: AXI Output busbufferNumRows = 599
++E mm-camera: AXI Output busrowIncrement = 200
++E mm-camera: axi_config AXI Configuration success 
++E mm-camera: axi_command_ops cmd_type = 1
++I mm_camera-mctl_pp: mctl_pp_cmd: pipe for mctl pp thread is already closed.
++E mm-camera: axi_proc_reg_update: write master 0 is active
++E mm-camera: axi_proc_reg_update: write master 1 is active
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++I caladbolg: 0000000016 cald_hal_qct_camera.c             (6189)  1999 P [HAL] 0000000080 - Cald_Hal_Qct_If_StartPreview
++I caladbolg: 0000000087 cald_capctrl.c                    (7697)  1999 P [CAP] 0000000082 - Cald_CapCtrl_FSM_Func_StartPreview
++I mm-still: free 0xb8827708
++I mm-still: free 0xb842d410
++I mm-still: free 0xb842d460
++I mm-still: free 0xb842d4b0
++I mm-still: free 0xb842d500
++I mm-still: free 0xb842d550
++I mm-still: free 0xb87c12d8
++I mm-still: free 0xb8395e58
++I mm-still: free 0xb8395ea8
++I caladbolg: 0000000097 cald_camctrl.c                   (17502)  1999 P [PFM] 0000000067 Cald_CamCtrl_FSM_Func_CaptureCompSnapshotDone
++W AudioService: stream was not muted by this client
++E AudioService: Could not get client death handler for stream: 1
++W AudioService: stream was not muted by this client
++E AudioService: Could not get client death handler for stream: 2
++W AudioService: stream was not muted by this client
++E AudioService: Could not get client death handler for stream: 5
++W AudioService: stream was not muted by this client
++E AudioService: Could not get client death handler for stream: 7
++W AudioService: stream was not muted by this client
++E AudioService: Could not get client death handler for stream: 8
++E idd-api : idd_set_sdata: send failed, socket 20, errcode -2 (No such file or directory)
++W caladbolg: 0000000066 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=4639
++I caladbolg: 0000000092 cald_camctrl.c                   (13253)  1999 P [PFM] 0000000031 Cald_CamCtrl_Func_FrameDoneVF
++I caladbolg: 0000000014 cald_camctrl.c                   (13265)  1999 I [INF] - Cald_CamCtrl_Func_FrameDoneVF
++W caladbolg: 0000000027 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=9705
++I libcamera: Preview average frame rate : 11.2256 (fps)
++W caladbolg: 0000000012 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=6958
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000004 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=11201
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000049 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=9492
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000036 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=12361
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000008 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=9706
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000057 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=11903
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I caladbolg: 0000000043 cald_client.c                      (910)  1245 I [INF] + Cald_Client_ICamera_StartAutoLock lockAF[1] lockAE[0] lockAWB[0]
++I caladbolg: 0000000065 cald_client.c                      (931)  1245 I [INF] - Cald_Client_ICamera_StartAutoLock (0)
++I caladbolg: 0000000001 cald_camctrl.c                    (5723)  1996 P [PFM] 0000000018 Cald_CamCtrl_ICamera_StartAutoLock
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000017 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10255
++W caladbolg: 0000000070 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=2228
++W caladbolg: 0000000027 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=13062
++W caladbolg: 0000000041 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=5921
++W caladbolg: 0000000022 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10133
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000034 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=14253
++W caladbolg: 0000000084 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=7081
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000028 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=11995
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000044 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=7630
++W caladbolg: 0000000001 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=4273
++W caladbolg: 0000000089 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=7721
++W caladbolg: 0000000067 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=12208
++W caladbolg: 0000000036 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=8363
++W caladbolg: 0000000070 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=7599
++W caladbolg: 0000000034 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=14924
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000063 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=2167
++W caladbolg: 0000000082 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10346
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000078 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=5371
++W caladbolg: 0000000069 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10193
++W caladbolg: 0000000070 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=14863
++W caladbolg: 0000000094 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=2655
++W caladbolg: 0000000010 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=8271
++W caladbolg: 0000000054 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=13215
++W caladbolg: 0000000091 cald_hal_qct_camera.c             (2475)  2142 W [HCF] Not found unlocked Preview buffer. -104
++W caladbolg: 0000000072 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=5493
++W caladbolg: 0000000066 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10956
++W caladbolg: 0000000034 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=4578
++W caladbolg: 0000000080 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=8423
++W caladbolg: 0000000055 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=13429
++D ALSADevice: standby: handle 0xb82dad08 h 0x0
++W caladbolg: 0000000088 cald_hal_qct_camera.c             (2475)  2142 W [HCF] Not found unlocked Preview buffer. -104
++W caladbolg: 0000000042 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=4548
++W caladbolg: 0000000082 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10987
++W caladbolg: 0000000003 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=6654
++W caladbolg: 0000000099 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=11415
++W caladbolg: 0000000011 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=6867
++W caladbolg: 0000000061 cald_hal_qct_camera.c             (2475)  2142 W [HCF] Not found unlocked Preview buffer. -104
++D alsa_ucm: snd_use_case_set(): uc_mgr 0xb829d3c8 identifier _verb value Inactive
++D alsa_ucm: Set mixer controls for HiFi enable 0
++D alsa_ucm: Setting mixer control: SLIMBUS_0_RX Audio Mixer MultiMedia1, value: 0
++D alsa_ucm: snd_use_case_set(): uc_mgr 0xb829d3c8 identifier _disdev value Speaker
++D alsa_ucm: Set mixer controls for Speaker enable 0
++D alsa_ucm: Setting mixer control: RX3 MIX1 INP1, value: ZERO
++D alsa_ucm: Setting mixer control: RX3 MIX1 INP2, value: ZERO
++D alsa_ucm: Setting mixer control: LINEOUT1 Volume, value: 0
++D AudioUsbALSA: exitPlaybackThread, mproxypfdPlayback: -1
++D AudioUsbALSA: closeDevice handle 0x0
++D AudioUsbALSA: closeDevice handle 0x0
++W caladbolg: 0000000089 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=12269
++W caladbolg: 0000000046 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=5066
++W caladbolg: 0000000040 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=12360
++W caladbolg: 0000000030 cald_hal_qct_camera.c             (2475)  2142 W [HCF] Not found unlocked Preview buffer. -104
++I caladbolg: 0000000043 cald_iqctrl.c                    (12259)  2016 I [INF] + Cald_IqCtrl_Callback
++I caladbolg: 0000000009 cald_camctrl.c                    (5179)  2016 P [PFM] 0000000087 Cald_CamCtrl_ICBIqCtrl_AutoLockDone
++I caladbolg: 0000000050 cald_iqctrl.c                    (12323)  2016 I [INF] - Cald_IqCtrl_Callback
++E MediaPlayer-JNI: QCMediaPlayer mediaplayer NOT present
++D ExtendedUtils: extended extractor not needed, return default
++E MediaPlayer: Should have subtitle controller already set
++D NuPlayerDriver: start(0xb88240a8)
++I GenericSource: start
++I ExtendedUtils: No channel mask, try channel count
++E MediaPlayer: Should have subtitle controller already set
++W ExtendedUtils: No bitrate info
++I NuPlayer: Could not offload audio decode, pcm offload decided :0
++I ACodec  : sampleRate=48000 channels=2 bits=16
++E AudioTrack: AudioTrack::set : Exit
++D ALSADevice: route: devices 0x2 in mode 0
++D ALSADevice: No valid input device: 0
++D alsa_ucm: snd_use_case_set(): uc_mgr 0xb829d3c8 identifier _enadev value Speaker
++D ALSADevice: switchDevice: mCurTxUCMDevivce None mCurRxDevDevice Speaker
++D alsa_ucm: snd_use_case_set(): uc_mgr 0xb829d3c8 identifier _verb value HiFi
++D alsa_ucm: Set mixer controls for Speaker enable 1
++D alsa_ucm: acdb_id 263 cap 1 enable 1
++D alsa_ucm: Setting mixer control: SLIM_0_RX Channels, value: Two
++D alsa_ucm: Setting mixer control: RX3 MIX1 INP1, value: RX1
++D alsa_ucm: Setting mixer control: RX3 MIX1 INP2, value: RX2
++D alsa_ucm: Setting mixer control: LINEOUT1 Volume, value: 100
++D alsa_ucm: Setting mixer control: RX3 Digital Volume, value: 71
++D alsa_ucm: Set mixer controls for HiFi enable 1
++D alsa_ucm: Setting mixer control: SLIMBUS_0_RX Audio Mixer MultiMedia1, value: 1
++D ALSADevice: close: handle 0xb82dad08 h 0x0
++D ALSADevice: open: handle 0xb82dad08, format 0x2
++D ALSADevice: Device value returned is hw:0,0
++D ALSADevice: handle->format: 0x2
++D ALSADevice: setHardwareParams: reqBuffSize 2048 channels 2 sampleRate 48000
++D ALSADevice: setHardwareParams: buffer_size 16384, period_size 2048, period_cnt 8
++W caladbolg: 0000000015 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10926
++W caladbolg: 0000000038 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=7263
++W caladbolg: 0000000001 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=14497
++I iu.UploadsManager: NEW; upload media id: 20966; iu: -1
++I iu.UploadsManager: End new media; added: 1, uploading: 1, time: 288 ms
++I libcamera: Preview average frame rate : 26.3368 (fps)
++W caladbolg: 0000000077 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=8058
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000045 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=12635
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000088 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=14589
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++E CFV5    : getNewFilename: 0000000069833
++E CFV5    : getNewFilename: 0000000069838
++I caladbolg: 0000000073 cald_client.c                      (464)   241 I [INF] + Cald_Client_ICamera_GetBufInfo index[0x2]
++I caladbolg: 0000000087 cald_client.c                      (487)   241 I [INF] - Cald_Client_ICamera_GetBufInfo (0)
++I caladbolg: 0000000009 cald_client.c                      (464)   241 I [INF] + Cald_Client_ICamera_GetBufInfo index[0x3]
++I caladbolg: 0000000062 cald_client.c                      (487)   241 I [INF] - Cald_Client_ICamera_GetBufInfo (0)
++I caladbolg: 0000000081 cald_client.c                      (755)   241 I [INF] + Cald_Client_ICamera_EnableThumbnail 
++I caladbolg: 0000000095 cald_client.c                      (772)   241 I [INF] pBufNum[1]
++I caladbolg: 0000000047 cald_client.c                      (778)   241 I [INF] pBuf[0]:0xad042000
++I caladbolg: 0000000011 cald_client.c                      (792)   241 I [INF] - Cald_Client_ICamera_EnableThumbnail (0)
++I caladbolg: 0000000064 cald_client.c                      (832)   241 I [INF] + Cald_Client_ICamera_TakeSnapshot 
++I caladbolg: 0000000025 cald_client.c                      (849)   241 I [INF] pBufNum[1]
++I caladbolg: 0000000016 cald_client.c                      (855)   241 I [INF] pBuf[0]:0xac405000
++I caladbolg: 0000000030 cald_camctrl.c                    (5668)  1996 P [PFM] 0000000038 Cald_CamCtrl_ICamera_TakeSnapshot
++I caladbolg: 0000000062 cald_client.c                      (869)   241 I [INF] - Cald_Client_ICamera_TakeSnapshot (0)
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I caladbolg: 0000000066 cald_iqctrl.c                    (12259)  2016 I [INF] + Cald_IqCtrl_Callback
++I caladbolg: 0000000018 cald_camctrl.c                    (5203)  2016 P [PFM] 0000000057 Cald_CamCtrl_ICBIqCtrl_PrepareSnapshotDone
++I caladbolg: 0000000024 cald_iqctrl.c                    (12323)  2016 I [INF] - Cald_IqCtrl_Callback
++I caladbolg: 0000000015 cald_capctrl.c                    (7709)  1999 P [CAP] 0000000093 + Cald_CapCtrl_FSM_Func_StopPreview 
++I caladbolg: 0000000029 cald_hal_qct_camera.c             (6199)  1999 P [HAL] 0000000068 + Cald_Hal_Qct_If_StopPreview 
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++I mm-camera: config_v2_CAMERA_STOP_VIDEO:, ctrl->state = 5
++E mm-camera: axi_command_ops cmd_type = 2
++E mm-camera: axi_proc_unregister_wms: Releasing write master 0
++E mm-camera: axi_proc_unregister_wms: Releasing write master 1
++E mm-camera: axi_proc_unregister_wms: Releasing write master 2
++E mm-camera: axi_proc_unregister_wms: Releasing write master 3
++E mm-camera: axi_proc_unregister_wms: Releasing write master 4
++E mm-camera: axi_proc_unregister_wms: Releasing write master 5
++E mm-camera: axi_proc_unregister_wms: Releasing write master 6
++E mm-camera: axi_command_ops cmd_type = 3
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++I caladbolg: 0000000058 cald_hal_qct_camera.c             (6225)  1999 P [HAL] 0000000066 - Cald_Hal_Qct_If_StopPreview
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I caladbolg: 0000000024 cald_capctrl.c                    (7713)  1999 P [CAP] 0000000032 - Cald_CapCtrl_FSM_Func_StopPreview
++I caladbolg: 0000000007 cald_capctrl.c                    (7835)  1999 P [CAP] 0000000015 + Cald_CapCtrl_FSM_Func_StartSnapshot 
++I caladbolg: 0000000051 cald_hal_qct_camera.c             (6324)  1999 P [HAL] 0000000029 + Cald_Hal_Qct_If_StartYuvSnapshot 
++I caladbolg: 0000000078 cald_hal_qct_camera.c             (6369)  1999 P [HAL] 0000000056 - Cald_Hal_Qct_If_StartYuvSnapshot
++I caladbolg: 0000000014 cald_capctrl.c                    (8297)  1999 P [CAP] 0000000023 - Cald_CapCtrl_FSM_Func_StartSnapshot
++I mm-camera: config_proc_native_ctrl_cmd: CAMERA_SET_PARM_DIMENSION called
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: config_validate_dimension: RDI 0: W X H: 1640 X 1232, RDI 1: W X H: 1640 X 616
++E mm-camera: config_validate_dimension: RDI2: W X H: 0 X 0
++E mm-camera: ispif_client_set_params, stream_mask: 0, index: 1 0
++E mm-camera: ispif_client_set_params, Lenght: 0
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 0
++I mm-camera: config_v2_v4l2_request: MSM_V4L2_VID_CAP_TYPE called.
++I mm-camera: config_update_stream_info: inst_idx : 1
++I mm-camera: config_update_stream_info Storing stream parameters for video inst 1 as : width = 3264, height 2464, format = 0 inst_handle = 00000000 cid = 0
++I mm-camera: config_v2_v4l2_request: MSM_V4L2_VID_CAP_TYPE called.
++I mm-camera: config_update_stream_info: inst_idx : 2
++I mm-camera: config_update_stream_info Storing stream parameters for video inst 2 as : width = 512, height 384, format = 1 inst_handle = 00000000 cid = 0
++I mm-camera: config_MSM_V4L2_STREAM_ON, - Inside Stream ON
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 0
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 0
++I mm-camera: config_MSM_V4L2_STREAM_ON, - Inside Stream ON
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 0
++E mm-camera: ispif_client_set_params, stream_mask: 1, index: 1 1
++E mm-camera: ispif_client_set_params, Lenght: 1
++E mm-camera: ispif_client_set_params, i: 0, InterfaceType: 0
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++I mm-camera: config_v2_CAMERA_SET_CHANNEL_STREAM rc = 0, status = 1
++I mm-camera: config_decide_vfe_outputs: Ports Used 3, Op mode 4
++I mm-camera: config_decide_vfe_outputs Current mode 4 Full size streaming : Disabled
++I mm-camera: config_decide_vfe_outputs: Primary: 3264x2464, extra_pad: 0x0, Fmt: 0, Type: 3, Path: 4
++I mm-camera: config_decide_vfe_outputs: Secondary: 512x384, extra_pad: 0x0, Fmt: 0, Type: 4, Path: 2
++E mm-camera: axi_command_ops cmd_type = 0
++E mm-camera: config_update_inst_handles: Single rdi enabled
++I mm-camera: config_update_inst_handles Updated the inst handles as 00000000, 00000000, 0, 0, 0 
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I mm-camera: vfe_process: op_mode : 2
++I mm-camera: vfe_config_mode: SnapshotCfg config 1f1ffff
++I mm-camera: sony_vfe_enable_modules: linearization enable[1]
++I mm-camera: sony_vfe_enable_modules: fov enable[1]
++I mm-camera: sony_vfe_enable_modules: scaler enable[1]
++I mm-camera: sony_vfe_enable_modules: rolloff enable[1]
++I mm-camera: sony_vfe_enable_modules: Demosaic enable[1]
++I mm-camera: sony_vfe_enable_modules: Demosaic BPC enable[1]
++I mm-camera: sony_vfe_enable_modules: Demosaic BCC enable[1]
++I mm-camera: sony_vfe_enable_modules: asf enable[1]
++I mm-camera: sony_vfe_enable_modules: demux enable[1]
++I mm-camera: sony_vfe_enable_modules: wb enable[1]
++I mm-camera: sony_vfe_enable_modules: CV enable[1]
++I mm-camera: sony_vfe_enable_modules: cc enable[1]
++I mm-camera: sony_vfe_enable_modules: gamma enable[1]
++I mm-camera: sony_vfe_enable_modules: abf enable[1]
++I mm-camera: sony_vfe_enable_modules: clf enable[0]
++I mm-camera: sony_vfe_enable_modules: la enable[0]
++I mm-camera: sony_vfe_enable_modules: Chroma SS enable[1]
++I mm-camera: sony_vfe_enable_modules: Frame skip config[1]
++I mm-camera: sony_vfe_enable_modules: MCE enable[0]
++I mm-camera: sony_vfe_enable_modules: SCE enable[1]
++I mm-camera: sony_vfe_enable_modules: Chroma suppression enable[1]
++I mm-camera: vfe_operation_config: format 1
++I mm-camera: vfe_operation_config:vfe_op_mode=2
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++I mm-camera: axi_update_UB_data Total UB size available for image masters 920
++I mm-camera: axi_update_UB_data: rem_size:364, minUbSize: 16
++I mm-camera: axi_update_UB_data: prev_p1_size:48, prev_p2_size: 48 prev_p3_size:0,                    main_p1_size: 220 main_p2_size:240, main_p3_size: 0
++I mm-camera: axi_update_UB_data Operation mode = 4 
++I mm-camera: axi_update_UB_data Image master 0 UB Offset 0 UB Size 583
++I mm-camera: axi_update_UB_data Image master 1 UB Offset 584 UB Size 239
++I mm-camera: axi_update_UB_data Image master 2 UB Offset 0 UB Size 0
++I mm-camera: axi_update_UB_data Image master 3 UB Offset 0 UB Size 0
++I mm-camera: axi_update_UB_data Image master 4 UB Offset 824 UB Size 47
++I mm-camera: axi_update_UB_data Image master 5 UB Offset 872 UB Size 47
++I mm-camera: axi_update_UB_data Image master 6 UB Offset 0 UB Size 0
++E mm-camera: axi_config: begin
++E mm-camera: axi_vfe_config_snapshot begin 
++E mm-camera: axi_vfe_config_snapshot: AXI Config
++E mm-camera: AXI Output busCmd = 0
++E mm-camera: AXI Output busCfg = 00000000
++E mm-camera: AXI Output xbarCfg0 = 6656
++E mm-camera: AXI Output xbarCfg1 = 6913
++E mm-camera: AXI Output busWrSkipCfg = 0
++E mm-camera: configure_wm_registers: axi channel write master 0 config
++E mm-camera: AXI Output busUbOffset = 0
++E mm-camera: AXI Output busUbDepth = 583
++E mm-camera: AXI Output buslinesPerImage = 2463
++E mm-camera: AXI Output busdwordsPerLine = 203
++E mm-camera: AXI Output busburstLength = 3
++E mm-camera: AXI Output busbufferNumRows = 2463
++E mm-camera: AXI Output busrowIncrement = 408
++E mm-camera: configure_wm_registers: axi channel write master 1 config
++E mm-camera: AXI Output busUbOffset = 584
++E mm-camera: AXI Output busUbDepth = 239
++E mm-camera: AXI Output buslinesPerImage = 1231
++E mm-camera: AXI Output busdwordsPerLine = 203
++E mm-camera: AXI Output busburstLength = 3
++E mm-camera: AXI Output busbufferNumRows = 1231
++E mm-camera: AXI Output busrowIncrement = 408
++E mm-camera: configure_wm_registers: axi channel write master 4 config
++E mm-camera: AXI Output busUbOffset = 824
++E mm-camera: AXI Output busUbDepth = 47
++E mm-camera: AXI Output buslinesPerImage = 383
++E mm-camera: AXI Output busdwordsPerLine = 31
++E mm-camera: AXI Output busburstLength = 3
++E mm-camera: AXI Output busbufferNumRows = 383
++E mm-camera: AXI Output busrowIncrement = 64
++E mm-camera: configure_wm_registers: axi channel write master 5 config
++E mm-camera: AXI Output busUbOffset = 872
++E mm-camera: AXI Output busUbDepth = 47
++E mm-camera: AXI Output buslinesPerImage = 191
++E mm-camera: AXI Output busdwordsPerLine = 31
++E mm-camera: AXI Output busburstLength = 3
++E mm-camera: AXI Output busbufferNumRows = 191
++E mm-camera: AXI Output busrowIncrement = 64
++E mm-camera: axi_config AXI Configuration success 
++E mm-camera: axi_command_ops cmd_type = 1
++E mm-camera: axi_proc_reg_update: write master 0 is active
++E mm-camera: axi_proc_reg_update: write master 1 is active
++E mm-camera: axi_proc_reg_update: write master 4 is active
++E mm-camera: axi_proc_reg_update: write master 5 is active
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I mm-camera: mctl_proc_MSG_ID_SOF_ACK: In-Correct Mode
++I caladbolg: 0000000056 cald_capctrl.c                    (9310)  1999 P [CAP] 0000000043 + Cald_CapCtrl_FSM_Func_Hal_SnapshotImageDone 
++I caladbolg: 0000000082 cald_capctrl.c                    (9388)  1999 P [CAP] 0000000099 - Cald_CapCtrl_FSM_Func_Hal_SnapshotImageDone
++E mm-camera: axi_proc_unregister_wms: Releasing write master 0
++E mm-camera: axi_proc_unregister_wms: Releasing write master 1
++E mm-camera: axi_proc_unregister_wms: Releasing write master 2
++E mm-camera: axi_proc_unregister_wms: Releasing write master 3
++E mm-camera: axi_proc_unregister_wms: Releasing write master 4
++E mm-camera: axi_proc_unregister_wms: Releasing write master 5
++E mm-camera: axi_proc_unregister_wms: Releasing write master 6
++E mm-camera: axi_command_ops cmd_type = 3
++I caladbolg: 0000000096 cald_capctrl.c                    (8830)  1999 P [CAP] 0000000073 + Cald_CapCtrl_FSM_Func_Hal_Shutter 
++I caladbolg: 0000000075 cald_camctrl.c                   (17348)  1999 P [PFM] 0000000023 Cald_CamCtrl_FSM_Func_CamShutter
++I caladbolg: 0000000011 cald_capctrl.c                    (8838)  1999 P [CAP] 0000000089 - Cald_CapCtrl_FSM_Func_Hal_Shutter
++I caladbolg: 0000000077 cald_client.c                      (941)  1998 I [INF] + Cald_Client_ICamera_CancelAutoLock 
++I caladbolg: 0000000066 cald_camctrl.c                   (15623)  1996 I [INF] Cald_CamCtrl_FSM_Func_CancelAutoLockOnSnapshot
++I caladbolg: 0000000090 cald_client.c                      (959)  1998 I [INF] - Cald_Client_ICamera_CancelAutoLock (0)
++I caladbolg: 0000000066 cald_capctrl.c                    (9310)  1999 P [CAP] 0000000014 + Cald_CapCtrl_FSM_Func_Hal_SnapshotImageDone 
++I caladbolg: 0000000033 cald_capctrl.c                    (9388)  1999 P [CAP] 0000000011 - Cald_CapCtrl_FSM_Func_Hal_SnapshotImageDone
++I caladbolg: 0000000094 cald_hal_qct_camera.c             (6380)  1999 P [HAL] 0000000033 + Cald_Hal_Qct_If_StopYuvSnapshot 
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++I caladbolg: 0000000037 cald_hal_qct_camera.c             (6434)  1999 P [HAL] 0000000045 - Cald_Hal_Qct_If_StopYuvSnapshot
++I caladbolg: 0000000072 cald_camctrl.c                   (17598)  1999 P [PFM] 0000000020 Cald_CamCtrl_FSM_Func_CaptureComplete
++E MediaPlayer-JNI: QCMediaPlayer mediaplayer NOT present
++I caladbolg: 0000000069 cald_iqctrl.c                    (12259)  2016 I [INF] + Cald_IqCtrl_Callback
++I caladbolg: 0000000005 cald_iqctrl.c                    (12323)  2016 I [INF] - Cald_IqCtrl_Callback
++D ExtendedUtils: extended extractor not needed, return default
++E MediaPlayer: Should have subtitle controller already set
++D NuPlayerDriver: start(0xb881a6c8)
++I GenericSource: start
++I ExtendedUtils: No channel mask, try channel count
++W ExtendedUtils: No bitrate info
++I NuPlayer: Could not offload audio decode, pcm offload decided :0
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++E MediaPlayer: Should have subtitle controller already set
++I ACodec  : sampleRate=44100 channels=1 bits=16
++E AudioTrack: AudioTrack::set : Exit
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I caladbolg: 0000000057 cald_camctrl.c                   (17385)  1999 P [PFM] 0000000035 Cald_CamCtrl_FSM_Func_ThumbnailDone
++I caladbolg: 0000000029 cald_capctrl.c                    (7709)  1999 P [CAP] 0000000019 + Cald_CapCtrl_FSM_Func_StopPreview 
++I caladbolg: 0000000014 cald_hal_qct_camera.c             (6199)  1999 P [HAL] 0000000001 + Cald_Hal_Qct_If_StopPreview 
++I caladbolg: 0000000028 cald_hal_qct_camera.c             (6225)  1999 P [HAL] 0000000067 - Cald_Hal_Qct_If_StopPreview
++I caladbolg: 0000000064 cald_capctrl.c                    (7713)  1999 P [CAP] 0000000072 - Cald_CapCtrl_FSM_Func_StopPreview
++W caladbolg: 0000000057 cald_hal_qct_imageconv.c          (1022)  2174 W [HIC] Reduction rate over
++I caladbolg: 0000000080 cald_capctrl.c                    (7678)  1999 P [CAP] 0000000028 + Cald_CapCtrl_FSM_Func_StartPreview 
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I mm-still: alloc 0xb8395980
++I mm-still: alloc 0xb840dd00
++I mm-still: alloc 0xb87b5e48
++I mm-still: alloc 0xb8891a38
++I mm-still: alloc 0xb8891a88
++I mm-still: alloc 0xb8891b08
++I mm-still: alloc 0xb88180f8
++I mm-still: alloc 0xb8818188
++I mm-still: alloc 0xb88181d8
++I mm-still: echoes in validate image dta 0xb8891b08 
++I mm-still: echoes in validate image dta 0xb8891a38 
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I caladbolg: 0000000057 cald_hal_qct_camera.c             (6142)  1999 P [HAL] 0000000074 + Cald_Hal_Qct_If_StartPreview 
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I mm-still: jpegw_configure,216
++I mm-still: jpegw_configure,227, p_mobicat_data->length: 0
++I mm-still: jpege_configure: p_encoder->config.userdefined_tables 0
++I mm-still: value is 0xb839ed20
++I mm-camera: config_proc_native_ctrl_cmd: CAMERA_SET_PARM_DIMENSION called
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: config_validate_dimension: RDI 0: W X H: 1640 X 1232, RDI 1: W X H: 1640 X 616
++E mm-camera: config_validate_dimension: RDI2: W X H: 0 X 0
++E mm-camera: ispif_client_set_params, stream_mask: 0, index: 1 0
++E mm-camera: ispif_client_set_params, Lenght: 0
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 0
++I mm-camera: config_v2_v4l2_request: MSM_V4L2_VID_CAP_TYPE called.
++I mm-camera: config_update_stream_info: inst_idx : 1
++I mm-camera: config_update_stream_info Storing stream parameters for video inst 1 as : width = 1600, height 1200, format = 1 inst_handle = 00000000 cid = 0
++I mm-camera: config_MSM_V4L2_STREAM_ON, - Inside Stream ON
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 0
++I mm-camera: config_MSM_V4L2_STREAM_ON User set bundle 0, Stream on 1 for 1
++E mm-camera: ispif_client_set_params, stream_mask: 1, index: 1 1
++E mm-camera: ispif_client_set_params, Lenght: 1
++E mm-camera: ispif_client_set_params, i: 0, InterfaceType: 0
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
++I mm-camera: config_v2_CAMERA_SET_CHANNEL_STREAM rc = 0, status = 1
++I mm-camera: config_decide_vfe_outputs: Ports Used 1, Op mode 64
++I mm-camera: config_decide_vfe_outputs Current mode 2 Full size streaming : Disabled
++I mm-camera: config_decide_vfe_outputs: Primary: 1600x1200, extra_pad: 0x0, Fmt: 1, Type: 1, Path: 1
++I mm-camera: config_decide_vfe_outputs: Secondary: 1600x1200, extra_pad: 0x0, Fmt: 0, Type: 0, Path: 0
++I mm-camera: config_MSM_V4L2_STREAM_ON pstreamon_bundle_mask 0
++E mm-camera: axi_command_ops cmd_type = 0
++I mm-still: echoes 0xb87b54dc 0xb87b54bc 0xb87b5e00 0xb87b5e0c
+ I mm-still: jpege_engine_hw_start luma_size = 00000000 chroma_size = 7990272 size = 7990272 y_len =7990272
+ I mm-still: jpege_engine_hw_start: Additional paddding = 0
+ E gemini  : gemini_lib_hw_pipeline_cfg:220] Gemini Cfg 0x38063fb
+ I mm-still: jpege_engine_hw_input_buf_enq: paddedHeight =2448 paddedWidth=3264 ylen = 7990272,cbcr_length=3995136 jpege_engine_hw_encode=0 y_off = 0cbcr_off = 0
+-E mm-camera: ION allocation failed
+-I mm-still: jpege_engine_allocate_output_buf:355] fail to allocate PMEM for gemini output
+-E mm-camera: ION allocation failed
+-I mm-still: jpege_engine_allocate_output_buf:355] fail to allocate PMEM for gemini output
+-I mm-still: jpege_engine_hw_start: jpege_engine_hw_output_buf_enq failed
+-E mm-camera: [CAMIF]: semc_camif_jpegenc_event_callback:JPEG_EVENT: UNKNOWN
+-I mm-still: free 0xb8f37ef8
+-I mm-still: free 0xb8f73928
+-I mm-still: free 0xb8f73978
+-I mm-still: free 0xb8f739c8
+-I mm-still: free 0xb8f73a18
+-I mm-still: free 0xb8f73a68
+-I mm-still: free 0xb8f6f130
+-I mm-still: free 0xb8f6fb28
+-I mm-still: free 0xb8f6f0e0
+-I mm-still: alloc 0xb8f6fb28
+-I mm-still: alloc 0xb8f72518
+-I mm-still: alloc 0xb8f72568
+-I mm-still: alloc 0xb8f72758
+-I mm-still: alloc 0xb8f727a8
+-I mm-still: alloc 0xb8f727f8
+-I mm-still: alloc 0xb8f72848
+-I mm-still: alloc 0xb8f72898
+-I mm-still: alloc 0xb8f728e8
+-I mm-still: echoes in validate image dta 0xb8f727f8 
+-I mm-still: echoes in validate image dta 0xb8f72758 
+-I mm-still: jpegw_configure,216
+-I mm-still: jpegw_configure,227, p_mobicat_data->length: 0
+-I mm-still: jpege_configure: p_encoder->config.userdefined_tables 0
+-I mm-still: value is 0xb8ebe928
+-I mm-still: echoes 0xb8f71bac 0xb8f71b8c 0xb8f724d0 0xb8f724dc
+-I mm-still: jpege_engine_hw_start luma_size = 00000000 chroma_size = 7990272 size = 7990272 y_len =7990272
+-I mm-still: jpege_engine_hw_start: Additional paddding = 0
+-E gemini  : gemini_lib_hw_pipeline_cfg:220] Gemini Cfg 0x38063fb
+-I mm-still: jpege_engine_hw_input_buf_enq: paddedHeight =2448 paddedWidth=3264 ylen = 7990272,cbcr_length=3995136 jpege_engine_hw_encode=0 y_off = 0cbcr_off = 0
+-E mm-camera: ION allocation failed
+-I mm-still: jpege_engine_allocate_output_buf:355] fail to allocate PMEM for gemini output
+-E mm-camera: ION allocation failed
+-I mm-still: jpege_engine_allocate_output_buf:355] fail to allocate PMEM for gemini output
+-I mm-still: jpege_engine_hw_start: jpege_engine_hw_output_buf_enq failed
++E mm-camera: config_update_inst_handles: Single rdi enabled
++I mm-camera: config_update_inst_handles Updated the inst handles as 00000000, 0, 0, 0, 0 
++I mm-camera: vfe_process: op_mode : 4
++I mm-camera: vfe_config_mode: VideoCFg config 17ffffff
++I mm-camera: sony_vfe_enable_modules: linearization enable[1]
++I mm-camera: sony_vfe_enable_modules: fov enable[1]
++I mm-camera: sony_vfe_enable_modules: scaler enable[1]
++I mm-camera: sony_vfe_enable_modules: rolloff enable[1]
++I mm-camera: sony_vfe_enable_modules: Demosaic enable[1]
++I mm-camera: sony_vfe_enable_modules: Demosaic BPC enable[1]
++I mm-camera: sony_vfe_enable_modules: Demosaic BCC enable[1]
++I mm-camera: sony_vfe_enable_modules: asf enable[1]
++I mm-camera: sony_vfe_enable_modules: demux enable[1]
++I mm-camera: sony_vfe_enable_modules: wb enable[1]
++I mm-camera: sony_vfe_enable_modules: CV enable[1]
++I mm-camera: sony_vfe_enable_modules: cc enable[1]
++I mm-camera: sony_vfe_enable_modules: gamma enable[1]
++I mm-camera: sony_vfe_enable_modules: abf enable[1]
++I mm-camera: sony_vfe_enable_modules: clf enable[0]
++I mm-camera: sony_vfe_enable_modules: la enable[0]
++I mm-camera: sony_vfe_enable_modules: Chroma SS enable[1]
++I mm-camera: sony_vfe_enable_modules: Frame skip config[1]
++I mm-camera: sony_vfe_enable_modules: MCE enable[0]
++I mm-camera: sony_vfe_enable_modules: SCE enable[1]
++I mm-camera: sony_vfe_enable_modules: Chroma suppression enable[1]
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I mm-camera: vfe_operation_config: format 1
++I mm-camera: vfe_operation_config:vfe_op_mode=4
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++E mm-camera: axi_set_params: begin, axi_obj_idx = 0
++I mm-camera: axi_update_UB_data Total UB size available for image masters 920
++I mm-camera: axi_update_UB_data: rem_size:668, minUbSize: 16
++I mm-camera: axi_update_UB_data: prev_p1_size:0, prev_p2_size: 0 prev_p3_size:0,                    main_p1_size: 116 main_p2_size:136, main_p3_size: 0
++I mm-camera: axi_update_UB_data Operation mode = 64 
++I mm-camera: axi_update_UB_data Image master 0 UB Offset 0 UB Size 783
++I mm-camera: axi_update_UB_data Image master 1 UB Offset 784 UB Size 135
++I mm-camera: axi_update_UB_data Image master 2 UB Offset 0 UB Size 0
++I mm-camera: axi_update_UB_data Image master 3 UB Offset 0 UB Size 0
++I mm-camera: axi_update_UB_data Image master 4 UB Offset 0 UB Size 0
++I mm-camera: axi_update_UB_data Image master 5 UB Offset 0 UB Size 0
++I mm-camera: axi_update_UB_data Image master 6 UB Offset 0 UB Size 0
++E mm-camera: axi_config: begin
++E mm-camera: axi_vfe_config: begin
++E mm-camera: current target is not 8930
++E mm-camera: axi_vfe_config: Primary Y, wm = 0!!
++E mm-camera: axi_vfe_config: Primary CbCr, wm = 1!!
++E mm-camera: axi_vfe_config:Primary image format 1
++E mm-camera: axi_vfe_config: AXI Config
++E mm-camera: AXI Output busCmd = 0
++E mm-camera: AXI Output busCfg = 00000000
++E mm-camera: AXI Output xbarCfg0 = 512
++E mm-camera: AXI Output xbarCfg1 = 0
++E mm-camera: AXI Output busWrSkipCfg = 0
++E mm-camera: configure_wm_registers: axi channel write master 0 config
++E mm-camera: AXI Output busUbOffset = 0
++E mm-camera: AXI Output busUbDepth = 783
++E mm-camera: AXI Output buslinesPerImage = 1199
++E mm-camera: AXI Output busdwordsPerLine = 99
++E mm-camera: AXI Output busburstLength = 3
++E mm-camera: AXI Output busbufferNumRows = 1199
++E mm-camera: AXI Output busrowIncrement = 200
++E mm-camera: configure_wm_registers: axi channel write master 1 config
++E mm-camera: AXI Output busUbOffset = 784
++E mm-camera: AXI Output busUbDepth = 135
++E mm-camera: AXI Output buslinesPerImage = 599
++E mm-camera: AXI Output busdwordsPerLine = 99
++E mm-camera: AXI Output busburstLength = 3
++E mm-camera: AXI Output busbufferNumRows = 599
++E mm-camera: AXI Output busrowIncrement = 200
++E mm-camera: axi_config AXI Configuration success 
++E mm-camera: axi_command_ops cmd_type = 1
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
+ I mm_camera-mctl_pp: mctl_pp_cmd: pipe for mctl pp thread is already closed.
+-E mm-camera: [CAMIF]: semc_camif_jpegenc_event_callback:JPEG_EVENT: UNKNOWN
+-I mm-still: free 0xb8f72758
+-I mm-still: free 0xb8f727a8
+-I mm-still: free 0xb8f727f8
+-I mm-still: free 0xb8f72848
+-I mm-still: free 0xb8f72898
+-I mm-still: free 0xb8f728e8
+-I mm-still: free 0xb8f72568
+-I mm-still: free 0xb8f6fb28
+-I mm-still: free 0xb8f72518
+-I mm-still: alloc 0xb8f6fb28
+-I mm-still: alloc 0xb8f72f38
+-I mm-still: alloc 0xb8f72f88
+-I mm-still: alloc 0xb8f73178
+-I mm-still: alloc 0xb8f731c8
+-I mm-still: alloc 0xb8f73218
+-I mm-still: alloc 0xb8f73268
+-I mm-still: alloc 0xb8f732b8
+-I mm-still: alloc 0xb8f73308
+-I mm-still: echoes in validate image dta 0xb8f73218 
+-I mm-still: echoes in validate image dta 0xb8f73178 
+-I mm-still: jpegw_configure,216
+-I mm-still: jpegw_configure,227, p_mobicat_data->length: 0
+-I mm-still: jpege_configure: p_encoder->config.userdefined_tables 0
+-I mm-still: value is 0xb8ebe928
+-I mm-still: echoes 0xb8f71bac 0xb8f71b8c 0xb8f724d0 0xb8f724dc
+-I mm-still: jpege_engine_hw_start luma_size = 00000000 chroma_size = 7990272 size = 7990272 y_len =7990272
+-I mm-still: jpege_engine_hw_start: Additional paddding = 0
+-E gemini  : gemini_lib_hw_pipeline_cfg:220] Gemini Cfg 0x38063fb
+-I mm-still: jpege_engine_hw_input_buf_enq: paddedHeight =2448 paddedWidth=3264 ylen = 7990272,cbcr_length=3995136 jpege_engine_hw_encode=0 y_off = 0cbcr_off = 0
+-E mm-camera: ION allocation failed
+-I mm-still: jpege_engine_allocate_output_buf:355] fail to allocate PMEM for gemini output
+-E mm-camera: ION allocation failed
+-I mm-still: jpege_engine_allocate_output_buf:355] fail to allocate PMEM for gemini output
+-I mm-still: jpege_engine_hw_start: jpege_engine_hw_output_buf_enq failed
+-E mm-camera: [CAMIF]: semc_camif_jpegenc_event_callback:JPEG_EVENT: UNKNOWN
+-I mm-still: free 0xb8f73178
+-I mm-still: free 0xb8f731c8
+-I mm-still: free 0xb8f73218
+-I mm-still: free 0xb8f73268
+-I mm-still: free 0xb8f732b8
+-I mm-still: free 0xb8f73308
+-I mm-still: free 0xb8f72f88
+-I mm-still: free 0xb8f6fb28
+-I mm-still: free 0xb8f72f38
+-I mm-still: alloc 0xb8f6fb28
+-I mm-still: alloc 0xb8f738e0
+-I mm-still: alloc 0xb8f73930
+-I mm-still: alloc 0xb8f73b20
+-I mm-still: alloc 0xb8f73b70
+-I mm-still: alloc 0xb8f73bc0
+-I mm-still: alloc 0xb8f73c10
+-I mm-still: alloc 0xb8f73c60
+-I mm-still: alloc 0xb8f73cb0
+-I mm-still: echoes in validate image dta 0xb8f73bc0 
+-I mm-still: echoes in validate image dta 0xb8f73b20 
+-I mm-still: jpegw_configure,216
+-I mm-still: jpegw_configure,227, p_mobicat_data->length: 0
+-I mm-still: jpege_configure: p_encoder->config.userdefined_tables 0
+-I mm-still: value is 0xb8ebe928
+-I mm-still: echoes 0xb8f71bac 0xb8f71b8c 0xb8f724d0 0xb8f724dc
+-I mm-still: jpege_engine_hw_start luma_size = 00000000 chroma_size = 7990272 size = 7990272 y_len =7990272
+-I mm-still: jpege_engine_hw_start: Additional paddding = 0
+-E gemini  : gemini_lib_hw_pipeline_cfg:220] Gemini Cfg 0x38063fb
+-I mm-still: jpege_engine_hw_input_buf_enq: paddedHeight =2448 paddedWidth=3264 ylen = 7990272,cbcr_length=3995136 jpege_engine_hw_encode=0 y_off = 0cbcr_off = 0
+-E mm-camera: ION allocation failed
+-I mm-still: jpege_engine_allocate_output_buf:355] fail to allocate PMEM for gemini output
+-E mm-camera: ION allocation failed
+-I mm-still: jpege_engine_allocate_output_buf:355] fail to allocate PMEM for gemini output
+-I mm-still: jpege_engine_hw_start: jpege_engine_hw_output_buf_enq failed
+-E mm-camera: [CAMIF]: semc_camif_jpegenc_event_callback:JPEG_EVENT: UNKNOWN
+-I mm-still: free 0xb8f73b20
+-I mm-still: free 0xb8f73b70
+-I mm-still: free 0xb8f73bc0
+-I mm-still: free 0xb8f73c10
+-I mm-still: free 0xb8f73c60
+-I mm-still: free 0xb8f73cb0
+-I mm-still: free 0xb8f73930
+-I mm-still: free 0xb8f6fb28
+-I mm-still: free 0xb8f738e0
++I mm-still: free 0xb8891a38
++I mm-still: free 0xb8891a88
++I mm-still: free 0xb8891b08
++I mm-still: free 0xb88180f8
++I mm-still: free 0xb8818188
++I mm-still: free 0xb88181d8
++I mm-still: free 0xb87b5e48
++I mm-still: free 0xb8395980
++I mm-still: free 0xb840dd00
+ E mm-camera: axi_proc_reg_update: write master 0 is active
+ E mm-camera: axi_proc_reg_update: write master 1 is active
+ E mm-camera: ispif_client_set_params, Inft typ: 0, CID_mask: 1; VFE interface: 0, CSID: 0, Used: 1
+-I caladbolg:    4612086 cald_hal_qct_camera.c             (6189)  2454 P [HAL]    4612025 - Cald_Hal_Qct_If_StartPreview
+-I caladbolg:    4612208 cald_capctrl.c                    (7697)  2454 P [CAP]    4612147 - Cald_CapCtrl_FSM_Func_StartPreview
+-I caladbolg:    4612330 cald_capctrl.c                   (10227)  2454 P [CAP]    4612299 + Cald_CapCtrl_FSM_Func_Face_StartDone 
+-I caladbolg:    4612421 cald_capctrl.c                   (10239)  2454 P [CAP]    4612391 - Cald_CapCtrl_FSM_Func_Face_StartDone
+-I caladbolg:    4623042 cald_camctrl.c                   (17502)  2454 P [PFM]    4623012 Cald_CamCtrl_FSM_Func_CaptureCompSnapshotDone
+-E libcamera: receivePictureDone: takepicture was failed!!!
+-I caladbolg:    4623287 cald_hal_qct_camera.c             (6380)  2454 P [HAL]    4623195 + Cald_Hal_Qct_If_StopYuvSnapshot 
+-I caladbolg:    4623470 cald_hal_qct_camera.c             (6434)  2454 P [HAL]    4623409 - Cald_Hal_Qct_If_StopYuvSnapshot
+-E Camera  : Error -0000000048
+-E RequestThread-0: Received error -0000000048 from the Camera1 ErrorCallback
+-I CameraDeviceState: Legacy camera service transitioning to state ERROR
+-E CAM_FatalErrorHandler: Handling Camera Access Failure:
+-E CAM_FatalErrorHandler: java.lang.Exception
+-E CAM_FatalErrorHandler: \tat com.android.camera.FatalErrorHandlerImpl.onGenericCameraAccessFailure(FatalErrorHandlerImpl.java:84)
+-E CAM_FatalErrorHandler: \tat com.android.camera.one.v2.Camera2OneCameraOpenerImpl$1.onError(Camera2OneCameraOpenerImpl.java:154)
+-E CAM_FatalErrorHandler: \tat android.hardware.camera2.impl.CameraDeviceImpl$CameraDeviceCallbacks$1.run(CameraDeviceImpl.java:1697)
+-E CAM_FatalErrorHandler: \tat android.os.Handler.handleCallback(Handler.java:739)
+-E CAM_FatalErrorHandler: \tat android.os.Handler.dispatchMessage(Handler.java:95)
+-E CAM_FatalErrorHandler: \tat android.os.Looper.loop(Looper.java:148)
+-E CAM_FatalErrorHandler: \tat android.os.HandlerThread.run(HandlerThread.java:61)
+-E CAM_CameraUtil: Show fatal error dialog
+-W caladbolg:    4641721 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=6196
+-I caladbolg:    4646574 cald_camctrl.c                   (13253)  2454 P [PFM]    4646543 Cald_CamCtrl_Func_FrameDoneVF
+-I caladbolg:    4646726 cald_camctrl.c                   (13265)  2454 I [INF] - Cald_CamCtrl_Func_FrameDoneVF
+-W caladbolg:    4649778 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=14253
+-I ActivityManager: Start proc 2584:com.advancedprocessmanager/u0a98 for broadcast com.advancedprocessmanager/com.tools.widget.MyWidget
+-W caladbolg:    4689455 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=8149
+-D ConnectivityService: notifyType CAP_CHANGED for NetworkAgentInfo [WIFI () - 100]
+-D ConnectivityService: updateNetworkScore for NetworkAgentInfo [WIFI () - 100] to 56
+-I CalendarProvider2: Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x00000000 }
+-W ContentResolver: Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+-W System  : ClassLoader referenced unknown path: /data/app/com.advancedprocessmanager-2/lib/arm
+-W caladbolg:    4727300 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=7417
+-W caladbolg:    4765298 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=7202
+-D NetlinkSocketObserver: NeighborEvent{elapsedMs=158950, 192.168.1.1, [B4750EB34307], RTM_NEWNEIGH, NUD_STALE}
+-I libcamera: Preview average frame rate : 10.2934 (fps)
+-W caladbolg:    4799938 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=6958
+-W caladbolg:    4835647 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=7294
+-W caladbolg:    4873370 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=7782
+-I toolbox : type=1400 audit(0.0:3): avc: denied { getattr } for path="/proc/1" dev="proc" ino=5694 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:4): avc: denied { search } for name="1" dev="proc" ino=5694 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:5): avc: denied { read } for name="cmdline" dev="proc" ino=10673 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:6): avc: denied { open } for name="cmdline" dev="proc" ino=10673 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:7): avc: denied { getattr } for path="/proc/1/cgroup" dev="proc" ino=22104 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:8): avc: denied { getattr } for path="/proc/152" dev="proc" ino=5688 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:9): avc: denied { search } for name="152" dev="proc" ino=5688 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:10): avc: denied { read } for name="cmdline" dev="proc" ino=10913 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:11): avc: denied { open } for name="cmdline" dev="proc" ino=10913 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:12): avc: denied { getattr } for path="/proc/152/cgroup" dev="proc" ino=22271 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:13): avc: denied { getattr } for path="/proc/153" dev="proc" ino=6239 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:ueventd:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:14): avc: denied { search } for name="153" dev="proc" ino=6239 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:ueventd:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:15): avc: denied { read } for name="cmdline" dev="proc" ino=10915 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:ueventd:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:16): avc: denied { open } for name="cmdline" dev="proc" ino=10915 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:ueventd:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:17): avc: denied { getattr } for path="/proc/153/cgroup" dev="proc" ino=22273 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:ueventd:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:18): avc: denied { getattr } for path="/proc/168" dev="proc" ino=7139 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:logd:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:19): avc: denied { search } for name="168" dev="proc" ino=7139 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:logd:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:20): avc: denied { read } for name="cmdline" dev="proc" ino=7154 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:logd:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:21): avc: denied { open } for name="cmdline" dev="proc" ino=7154 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:logd:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:22): avc: denied { getattr } for path="/proc/168/cgroup" dev="proc" ino=22291 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:logd:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:23): avc: denied { getattr } for path="/proc/174" dev="proc" ino=5889 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:vold:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:24): avc: denied { search } for name="174" dev="proc" ino=5889 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:vold:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:25): avc: denied { read } for name="cmdline" dev="proc" ino=5899 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:vold:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:26): avc: denied { open } for name="cmdline" dev="proc" ino=5899 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:vold:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:27): avc: denied { getattr } for path="/proc/174/cgroup" dev="proc" ino=22296 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:vold:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:28): avc: denied { getattr } for path="/proc/196" dev="proc" ino=7201 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:healthd:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:29): avc: denied { search } for name="196" dev="proc" ino=7201 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:healthd:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:30): avc: denied { read } for name="cmdline" dev="proc" ino=10939 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:healthd:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:31): avc: denied { open } for name="cmdline" dev="proc" ino=10939 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:healthd:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:32): avc: denied { getattr } for path="/proc/196/cgroup" dev="proc" ino=22300 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:healthd:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:33): avc: denied { getattr } for path="/proc/197" dev="proc" ino=7207 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:lmkd:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:34): avc: denied { search } for name="197" dev="proc" ino=7207 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:lmkd:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:35): avc: denied { read } for name="cmdline" dev="proc" ino=7233 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:lmkd:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:36): avc: denied { open } for name="cmdline" dev="proc" ino=7233 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:lmkd:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:37): avc: denied { getattr } for path="/proc/197/cgroup" dev="proc" ino=22302 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:lmkd:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:38): avc: denied { getattr } for path="/proc/198" dev="proc" ino=5953 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:servicemanager:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:39): avc: denied { search } for name="198" dev="proc" ino=5953 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:servicemanager:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:40): avc: denied { read } for name="cmdline" dev="proc" ino=10942 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:servicemanager:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:41): avc: denied { open } for name="cmdline" dev="proc" ino=10942 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:servicemanager:s0 tclass=file permissive=1
+-D ProcessManager: Failed parsing line USER      PID   PPID  VSIZE  RSS  CPU PRIO  NICE  RTPRI SCHED  PCY WCHAN            PC  NAME
+-W caladbolg:    4912986 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=8668
+-E RequestThread-0: Hit timeout for jpeg callback!
+-W CaptureCollector: Jpeg buffers dropped for request: 1
+-E CameraDeviceState: Cannot receive result while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-W LegacyRequestMapper: convertRequestMetadata - control.awbRegions setting is not supported, ignoring value
+-W LegacyRequestMapper: Only received metering rectangles with weight 0.
+-E idd-api : idd_set_sdata: send failed, socket 23, errcode -2 (No such file or directory)
+-I caladbolg:    4948573 cald_client.c                      (406)  1973 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    4948817 cald_client.c                      (424)  1973 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-D SimSelectNotification:  no of slots 1 provision = false
+-W caladbolg:    4951320 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=9583
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    4971585 cald_client.c                      (406)   867 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    4973172 cald_client.c                      (424)   867 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-I ActivityManager: Start proc 2605:fr.freemobile.android.vvm/u0a51 for broadcast fr.freemobile.android.vvm/.receiver.SimStateChanged
+-I caladbolg:    4983793 cald_camctrl.c                    (5227)  2471 P [PFM]    4983763 Cald_CamCtrl_ICBIqCtrl_FocusStateChanged
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    4990691 cald_client.c                      (406)  1973 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    4990965 cald_client.c                      (424)  1973 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-W caladbolg:    4994353 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=10590
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-W System  : ClassLoader referenced unknown path: /data/app/fr.freemobile.android.vvm-1/lib/arm
+-I caladbolg:    5018403 cald_client.c                      (406)   867 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5019960 cald_client.c                      (424)   867 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-I caladbolg:    5025637 cald_camctrl.c                    (5227)  2471 P [PFM]    5025576 Cald_CamCtrl_ICBIqCtrl_FocusStateChanged
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5034243 cald_client.c                      (406)  1973 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5034671 cald_client.c                      (424)  1973 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-W MessageQueue: Handler (android.view.Choreographer$FrameHandler) {be45f5d} sending message to a Handler on a dead thread
+-W MessageQueue: java.lang.IllegalStateException: Handler (android.view.Choreographer$FrameHandler) {be45f5d} sending message to a Handler on a dead thread
+-W MessageQueue: \tat android.os.MessageQueue.enqueueMessage(MessageQueue.java:543)
+-W MessageQueue: \tat android.os.Handler.enqueueMessage(Handler.java:631)
+-W MessageQueue: \tat android.os.Handler.sendMessageAtTime(Handler.java:600)
+-W MessageQueue: \tat android.view.Choreographer$FrameDisplayEventReceiver.onVsync(Choreographer.java:838)
+-W MessageQueue: \tat android.view.DisplayEventReceiver.dispatchVsync(DisplayEventReceiver.java:141)
+-W MessageQueue: \tat android.os.MessageQueue.nativePollOnce(Native Method)
+-W MessageQueue: \tat android.os.MessageQueue.next(MessageQueue.java:323)
+-W MessageQueue: \tat android.os.Looper.loop(Looper.java:135)
+-W MessageQueue: \tat android.os.HandlerThread.run(HandlerThread.java:61)
+-W caladbolg:    5038242 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=12635
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5051762 cald_client.c                      (406)   867 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5052739 cald_client.c                      (424)   867 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-D ACRA    : ACRA is enabled for fr.freemobile.android.vvm, initializing...
+-D ACRA    : Using default Report Fields
+-D ACRA    : Looking for error files in /data/user/0/fr.freemobile.android.vvm/files
+-I caladbolg:    5070532 cald_camctrl.c                    (5227)  2471 P [PFM]    5070502 Cald_CamCtrl_ICBIqCtrl_FocusStateChanged
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5076423 cald_client.c                      (406)  1973 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5076728 cald_client.c                      (424)  1973 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-I ActivityManager: Start proc 2622:com.android.cellbroadcastreceiver/u0a6 for broadcast com.android.cellbroadcastreceiver/.CellBroadcastReceiver
+-W caladbolg:    5080299 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=9797
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5107126 cald_client.c                      (406)   867 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5107370 cald_client.c                      (424)   867 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-W System  : ClassLoader referenced unknown path: /system/priv-app/CellBroadcastReceiver/lib/arm
+-D CellBroadcastReceiver: subscriptionId = -2
+-I caladbolg:    5110911 cald_camctrl.c                    (5227)  2471 P [PFM]    5110850 Cald_CamCtrl_ICBIqCtrl_FocusStateChanged
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5116496 cald_client.c                      (406)  1973 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5116831 cald_client.c                      (424)  1973 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-D SIP     : [SipSharedPreferences] isReceivingCallsEnabled, option not set; use default value, exception: android.provider.Settings$SettingNotFoundException: sip_receive_calls
+-D SimSelectNotification:  no of slots 1 provision = false
+-W caladbolg:    5120524 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=9675
+-D SimSelectNotification:  no of slots 1 provision = false
+-D CellBroadcastReceiver: subscriptionId = -2
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5148084 cald_client.c                      (406)   867 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5148481 cald_client.c                      (424)   867 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-I caladbolg:    5152205 cald_camctrl.c                    (5227)  2471 P [PFM]    5152144 Cald_CamCtrl_ICBIqCtrl_FocusStateChanged
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5158522 cald_client.c                      (406)  1973 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5158797 cald_client.c                      (424)  1973 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-I WeatherUpdateService: Google Play Services available; Ignoring GPS provider.
+-I toolbox : type=1400 audit(0.0:194): avc: denied { getattr } for path="/proc/197" dev="proc" ino=7207 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:lmkd:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:195): avc: denied { search } for name="197" dev="proc" ino=7207 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:lmkd:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:196): avc: denied { getattr } for path="/proc/198" dev="proc" ino=5953 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:servicemanager:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:197): avc: denied { search } for name="198" dev="proc" ino=5953 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:servicemanager:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:198): avc: denied { read } for name="cmdline" dev="proc" ino=8374 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:surfaceflinger:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:199): avc: denied { open } for name="cmdline" dev="proc" ino=8374 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:surfaceflinger:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:200): avc: denied { getattr } for path="/proc/199/cgroup" dev="proc" ino=22306 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:surfaceflinger:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:201): avc: denied { read } for name="cmdline" dev="proc" ino=10947 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:secchand:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:202): avc: denied { open } for name="cmdline" dev="proc" ino=10947 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:secchand:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:203): avc: denied { getattr } for path="/proc/201/cgroup" dev="proc" ino=22310 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:secchand:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:204): avc: denied { getattr } for path="/proc/205" dev="proc" ino=7238 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:netd:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:205): avc: denied { search } for name="205" dev="proc" ino=7238 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:netd:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:206): avc: denied { read } for name="cmdline" dev="proc" ino=6116 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:netd:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:207): avc: denied { open } for name="cmdline" dev="proc" ino=6116 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:netd:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:208): avc: denied { getattr } for path="/proc/205/cgroup" dev="proc" ino=22314 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:netd:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:209): avc: denied { getattr } for path="/proc/206" dev="proc" ino=7262 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:debuggerd:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:210): avc: denied { search } for name="206" dev="proc" ino=7262 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:debuggerd:s0 tclass=dir permissive=1
+-I toolbox : type=1400 audit(0.0:211): avc: denied { read } for name="cmdline" dev="proc" ino=6092 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:debuggerd:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:212): avc: denied { open } for name="cmdline" dev="proc" ino=6092 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:debuggerd:s0 tclass=file permissive=1
+-I toolbox : type=1400 audit(0.0:213): avc: denied { getattr } for path="/proc/206/cgroup" dev="proc" ino=22316 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:debuggerd:s0 tclass=file permissive=1
+-D ALSADevice: standby: handle 0xb8dec5a8 h 0x0
+-D ProcessManager: Failed parsing line USER      PID   PPID  VSIZE  RSS  CPU PRIO  NICE  RTPRI SCHED  PCY WCHAN            PC  NAME
+-W caladbolg:    5161574 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=9430
+-W System  : ClassLoader referenced unknown path: /system/framework/tcmclient.jar
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5188371 cald_client.c                      (406)   867 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5188676 cald_client.c                      (424)   867 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-D ConnectivityService: updateNetworkScore for NetworkAgentInfo [WIFI () - 100] to 60
+-I caladbolg:    5189775 cald_camctrl.c                    (5227)  2471 P [PFM]    5189745 Cald_CamCtrl_ICBIqCtrl_FocusStateChanged
+-D alsa_ucm: snd_use_case_set(): uc_mgr 0xb8e29ef0 identifier _verb value Inactive
+-D alsa_ucm: Set mixer controls for HiFi enable 0
+-D alsa_ucm: Setting mixer control: SLIMBUS_0_RX Audio Mixer MultiMedia1, value: 0
+-D alsa_ucm: snd_use_case_set(): uc_mgr 0xb8e29ef0 identifier _disdev value Speaker
+-D alsa_ucm: Set mixer controls for Speaker enable 0
+-D alsa_ucm: Setting mixer control: RX3 MIX1 INP1, value: ZERO
+-D alsa_ucm: Setting mixer control: RX3 MIX1 INP2, value: ZERO
+-D alsa_ucm: Setting mixer control: LINEOUT1 Volume, value: 0
+-D alsa_ucm: Setting mixer control: RX1 MIX1 INP1, value: ZERO
+-D alsa_ucm: Setting mixer control: DAC1 Switch, value: 0
+-D AudioUsbALSA: exitPlaybackThread, mproxypfdPlayback: -1
+-D AudioUsbALSA: closeDevice handle 0x0
+-D AudioUsbALSA: closeDevice handle 0x0
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5200183 cald_client.c                      (406)  1973 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5200457 cald_client.c                      (424)  1973 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-W caladbolg:    5200885 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=11140
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5211139 cald_client.c                      (406)   867 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5211628 cald_client.c                      (424)   867 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-I caladbolg:    5230550 cald_camctrl.c                    (5227)  2471 P [PFM]    5230520 Cald_CamCtrl_ICBIqCtrl_FocusStateChanged
+-D ProcessManager: Failed parsing line USER      PID   PPID  VSIZE  RSS  CPU PRIO  NICE  RTPRI SCHED  PCY WCHAN            PC  NAME
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5235403 cald_client.c                      (406)  1973 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5235647 cald_client.c                      (424)  1973 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-W caladbolg:    5236075 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=5555
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5262658 cald_client.c                      (406)   867 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5262933 cald_client.c                      (424)   867 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-I caladbolg:    5263757 cald_camctrl.c                    (5227)  2471 P [PFM]    5263696 Cald_CamCtrl_ICBIqCtrl_FocusStateChanged
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5268518 cald_client.c                      (406)  1973 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5268792 cald_client.c                      (424)  1973 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-W caladbolg:    5269342 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=5647
+-I libcamera: Preview average frame rate : 7.9995 (fps)
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5295406 cald_client.c                      (406)   867 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5295650 cald_client.c                      (424)   867 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-I caladbolg:    5296474 cald_camctrl.c                    (5227)  2471 P [PFM]    5296413 Cald_CamCtrl_ICBIqCtrl_FocusStateChanged
+-I GAV2    : Thread[GAThread,5,main]: No campaign data found.
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5300869 cald_client.c                      (406)  1973 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5301114 cald_client.c                      (424)  1973 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-D YahooWeatherProvider: Weather updated: WeatherInfo for Châteaufort (00000000) @ Fri Jan 22 10:57:49 GMT+01:00 2016: Fair(34), temperature 0°C, low 1°, high 7°, humidity 93%, wind 14km/h at SE, forecasts: day 1: high 7°, low 1°, PM Rain(12); day 2: high 6°, low 2°, Cloudy(26); day 3: high 9°, low 3°, AM Fog/PM Clouds(20); day 4: high 13°, low 5°, Partly Cloudy(30); day 5: high 11°, low 7°, Partly Cloudy(30)
+-D ProcessManager: Failed parsing line USER      PID   PPID  VSIZE  RSS  CPU PRIO  NICE  RTPRI SCHED  PCY WCHAN            PC  NAME
+-W caladbolg:    5301541 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=5128
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5327697 cald_client.c                      (406)   867 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5327971 cald_client.c                      (424)   867 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-I ActivityManager: Start proc 2658:com.cyanogenmod.updater/u0a2 for broadcast com.cyanogenmod.updater/.receiver.UpdateCheckReceiver
+-I caladbolg:    5328795 cald_camctrl.c                    (5227)  2471 P [PFM]    5328765 Cald_CamCtrl_ICBIqCtrl_FocusStateChanged
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5334472 cald_client.c                      (406)  1973 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5334777 cald_client.c                      (424)  1973 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-W System  : ClassLoader referenced unknown path: /system/priv-app/CMUpdater/lib/arm
+-W caladbolg:    5335266 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=6470
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5346314 cald_client.c                      (406)   867 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5346558 cald_client.c                      (424)   867 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-I UpdateCheckReceiver: Got connectivity change, has connection: true
+-I UpdateCheckReceiver: Scheduling future, repeating update checks.
+-I ActivityManager: Killing 1165:com.google.android.keep/u0a118 (adj 15): empty #17
+-I caladbolg:    5363161 cald_camctrl.c                    (5227)  2471 P [PFM]    5363131 Cald_CamCtrl_ICBIqCtrl_FocusStateChanged
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5372470 cald_client.c                      (406)  1973 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5373019 cald_client.c                      (424)  1973 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-W caladbolg:    5373721 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=10590
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5390874 cald_client.c                      (406)   867 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5391667 cald_client.c                      (424)   867 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-I caladbolg:    5400244 cald_camctrl.c                    (5227)  2471 P [PFM]    5400213 Cald_CamCtrl_ICBIqCtrl_FocusStateChanged
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5405157 cald_client.c                      (406)  1973 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5405432 cald_client.c                      (424)  1973 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-W caladbolg:    5406012 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=5738
+-I iu.SyncManager: SYNC; picasa accounts
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5432046 cald_client.c                      (406)   867 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5432382 cald_client.c                      (424)   867 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-D NetworkLogImpl: Loaded NetworkSpeedPredictor
+-I iu.Environment: update connectivity state; isNetworkMetered? false, isRoaming? false, isBackgroundDataAllowed? true*
+-I caladbolg:    5433053 cald_camctrl.c                    (5227)  2471 P [PFM]    5433023 Cald_CamCtrl_ICBIqCtrl_FocusStateChanged
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
+-D WeatherUpdateService: Service started, but shouldn't update ... stopping
+-I ActivityManager: Start proc 2684:com.jb.zcamera:pushservice/u0a120 for broadcast com.jb.zcamera/io.wecloud.message.PushServiceReceiver
+-E CameraDeviceState: Cannot receive result while in state: 0
+-I caladbolg:    5437875 cald_client.c                      (406)  1973 I [INF] + Cald_Client_ICamera_StartFocusStateNotification 
+-I caladbolg:    5438211 cald_client.c                      (424)  1973 I [INF] - Cald_Client_ICamera_StartFocusStateNotification (0)
+-W caladbolg:    5438638 cald_hal_qct_iq.c                 (2215)  2477 W [HIQ] Postpone the stats callback stableTime=5615
+-I CameraDeviceState: Legacy camera service transitioning to state CAPTURING
+-E CameraDeviceState: Cannot call capture while in state: 0
++I caladbolg: 0000000043 cald_hal_qct_camera.c             (6189)  1999 P [HAL] 0000000051 - Cald_Hal_Qct_If_StartPreview
++I caladbolg: 0000000057 cald_capctrl.c                    (7697)  1999 P [CAP] 0000000035 - Cald_CapCtrl_FSM_Func_StartPreview
++I caladbolg: 0000000027 cald_camctrl.c                   (17502)  1999 P [PFM] 0000000066 Cald_CamCtrl_FSM_Func_CaptureCompSnapshotDone
++W AudioService: stream was not muted by this client
++E AudioService: Could not get client death handler for stream: 1
++W AudioService: stream was not muted by this client
++E AudioService: Could not get client death handler for stream: 2
++W AudioService: stream was not muted by this client
++E AudioService: Could not get client death handler for stream: 5
++W AudioService: stream was not muted by this client
++E AudioService: Could not get client death handler for stream: 7
++W AudioService: stream was not muted by this client
++E AudioService: Could not get client death handler for stream: 8
++W MediaPlayer-JNI: MediaPlayer finalized without being released
++D NuPlayerDriver: reset(0xb88240a8)
++D NuPlayerDriver: notifyResetComplete(0xb88240a8)
++W MediaPlayer-JNI: MediaPlayer finalized without being released
++D NuPlayerDriver: reset(0xb87c19d8)
++D NuPlayerDriver: notifyResetComplete(0xb87c19d8)
++W MediaPlayer-JNI: MediaPlayer finalized without being released
++D NuPlayerDriver: reset(0xb840e288)
++D NuPlayerDriver: notifyResetComplete(0xb840e288)
++E idd-api : idd_set_sdata: send failed, socket 20, errcode -2 (No such file or directory)
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000013 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=5890
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I caladbolg: 0000000062 cald_camctrl.c                   (13253)  1999 P [PFM] 0000000071 Cald_CamCtrl_Func_FrameDoneVF
++I caladbolg: 0000000084 cald_camctrl.c                   (13265)  1999 I [INF] - Cald_CamCtrl_Func_FrameDoneVF
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000078 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=9187
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000009 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=8760
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000048 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=8637
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000026 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10682
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000077 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=9248
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000075 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=11812
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000045 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=11140
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000022 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=11964
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: Preview average frame rate : 9.8587 (fps)
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000055 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=9400
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++W caladbolg: 0000000096 cald_hal_qct_iq.c                 (2215)  2022 W [HIQ] Postpone the stats callback stableTime=10041
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
++I libcamera: HAL_getCameraInfo: E cameraId=0
++I libcamera: HAL_Camera_GetCameraInfo: HAL_gCameraNum=2
++I libcamera: HAL_getCameraInfo: X
