@@ -46,7 +46,7 @@ TARGET_NO_RADIOIMAGE := true
 BOARD_LIB_DUMPSTATE := libdumpstate.sony
 
 # Bionic
-MALLOC_IMPL := dlmalloc
+#MALLOC_IMPL := dlmalloc
 
 # WiFi
 BOARD_HAS_QCOM_WLAN              := true
