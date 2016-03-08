@@ -46,13 +46,9 @@ public class ProximitySensor implements SensorEventListener {
         reset();
         mProximitySensor = sensorManager.getDefaultSensor(
                 Sensor.TYPE_PROXIMITY, true);
-
         mProximityListener = proximitylistener;
+        mMaxRange = mProximitySensor.getMaximumRange();
         mSensorManager = sensorManager;
-
-        if (mProximitySensor != null) {
-            mMaxRange = mProximitySensor.getMaximumRange();
-        }
     }
 
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
@@ -78,7 +74,7 @@ public class ProximitySensor implements SensorEventListener {
     }
 
     public void enable() {
-        if (!mEnabled && mProximitySensor != null) {
+        if (!mEnabled) {
             mSensorManager.registerListener(this, mProximitySensor,
                     PROXIMITY_DELAY, PROXIMITY_LATENCY);
             mEnabled = true;
@@ -91,7 +87,7 @@ public class ProximitySensor implements SensorEventListener {
     }
 
     public void disable() {
-        if (mEnabled && mProximitySensor != null) {
+        if (mEnabled) {
             mSensorManager.unregisterListener(this, mProximitySensor);
             mEnabled = false;
         }
